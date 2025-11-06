@@ -1,0 +1,14 @@
+export { default as Header1 } from './Header1';
+export { default as Header2 } from './Header2';
+export { default as Header3 } from './Header3';
+export { default as Header4 } from './Header4';
+export { default as Header5 } from './Header5';
+export { default as Header6 } from './Header6';
+export { default as Body1 } from './Body1';
+export { default as Body2 } from './Body2';
+export { default as Body3 } from './Body3';
+export { default as Body4 } from './Body4';
+export { default as Subtitle1 } from './Subtitle1';
+export { default as Subtitle2 } from './Subtitle2';
+export { default as Caption } from './Caption';
+export { default as Overline } from './Overline'; 

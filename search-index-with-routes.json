@@ -1,0 +1,870 @@
+[
+  {
+    "id": "raiqa-health-j2puns2-contact-us-75bc5244d78a",
+    "title": "Contact Us",
+    "body": "Have questions, feedback, or need support? Reach out and we’ll get back to you soon.",
+    "page": "/raiqa-health-j2puns2-contact-us",
+    "sectionId": "75bc5244d78a",
+    "breadcrumbs": [
+      "Contact Us",
+      "contactUsSection"
+    ],
+    "type": "contactUsSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-header-c0e461c6c7f8",
+    "title": "",
+    "body": "Practitioners General Practitioner Mental Health Practitioner Allied Health Practitioner Aged Care Practitioner Dentist Home Services AI Assistant Practitioner Profile Assistant How It Works More Help Contact Us Customer Support Login Sign Up Company About Us Partners Raiqa.com Legal Terms of Service Privacy Policy Cookie Policy Data Security Resources Blog Webinars Events News More Help Contact Us Customer Support Login Sign Up Company About Us Partners Raiqa.com Legal Terms of Service Privacy Policy Cookie Policy Data Security Resources Blog Webinars Events News",
+    "page": "/raiqa-health-j2puns2-header",
+    "sectionId": "c0e461c6c7f8",
+    "breadcrumbs": [
+      "Header",
+      "header"
+    ],
+    "type": "header",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "practitionerAdvantage3-1be5324e96a5",
+    "title": "Attracting new patients shouldn’t feel like guesswork.",
+    "body": "Without the right tools, expanding your reach is slow and expensive. We simplify growth with smart, AI-driven patient matching.",
+    "page": "/practitionerAdvantage3",
+    "sectionId": "1be5324e96a5",
+    "breadcrumbs": [
+      "Attract New Patients",
+      "practitionerAdvantages"
+    ],
+    "type": "practitionerAdvantages",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-mobile-app-b8155ce6c313",
+    "title": "Raiqa Health App — Coming Soon!",
+    "body": "Your healthcare, even closer. Get ready for our app on Play Store and App Store.",
+    "page": "/raiqa-health-j2puns2-patient-mobile-app",
+    "sectionId": "b8155ce6c313",
+    "breadcrumbs": [
+      "Mobile App Section",
+      "mobileAppSection"
+    ],
+    "type": "mobileAppSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-home-067f9d356e57",
+    "title": "High Burnout rates drive GPs,specialist to join telehealth. ",
+    "body": "Instant access to multidisciplinary care — GPs to specialists to allied health, all powered by advanced RAIQA AI",
+    "page": "/raiqa-health-j2puns2-patient-home",
+    "sectionId": "067f9d356e57",
+    "breadcrumbs": [
+      "Raiqa Health Home",
+      "homeHeroSection"
+    ],
+    "type": "homeHeroSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-all-services-b8ccc27965c5",
+    "title": "Find the care you need.",
+    "body": "Find the care you need.",
+    "page": "/raiqa-health-j2puns2-patient-all-services",
+    "sectionId": "b8ccc27965c5",
+    "breadcrumbs": [
+      "All Services",
+      "allServicesSection"
+    ],
+    "type": "allServicesSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "reportsResources-fd1e9b68fddc",
+    "title": "Reports and e-books",
+    "body": "Reports and e-books",
+    "page": "/reportsResources",
+    "sectionId": "fd1e9b68fddc",
+    "breadcrumbs": [
+      "Reports and e-books Resources",
+      "resourcesSection"
+    ],
+    "type": "resourcesSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/resources"
+  },
+  {
+    "id": "raiqa-health-j2puns2-privacy-policy-34b81cf7260c",
+    "title": "Raiqa Health — Privacy Policy",
+    "body": "Raiqa Health — Privacy Policy",
+    "page": "/raiqa-health-j2puns2-privacy-policy",
+    "sectionId": "34b81cf7260c",
+    "breadcrumbs": [
+      "Privacy Policy",
+      "legalPage"
+    ],
+    "type": "legalPage",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "generalHeroSection-94090307a448",
+    "title": "Grow your GP practice with AI-powered precision.",
+    "body": "Fill your appointment book, reduce admin, and focus on patient care — Raiqa Health is built for General Practitioners like you.",
+    "page": "/generalHeroSection",
+    "sectionId": "94090307a448",
+    "breadcrumbs": [
+      "GP Hero Section",
+      "pracHomeHeroSection"
+    ],
+    "type": "pracHomeHeroSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/general"
+  },
+  {
+    "id": "practitionerHomeHero-b102b10f664e",
+    "title": "Maximize your benefits. Reduce burnouts.",
+    "body": "Harness AI to fill your calendar, streamline admin, and deliver better care — every day.",
+    "page": "/practitionerHomeHero",
+    "sectionId": "b102b10f664e",
+    "breadcrumbs": [
+      "Practitioner Home Hero",
+      "pracHomeHeroSection"
+    ],
+    "type": "pracHomeHeroSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-how-it-helps-d6431475f5bd",
+    "title": "How Raiqa AI Helps You",
+    "body": "Raiqa’s AI-powered system is designed to help you skip the guesswork when it comes to finding the right doctor. We use smart technology to understand your health care needs:",
+    "page": "/raiqa-health-j2puns2-patient-how-it-helps",
+    "sectionId": "d6431475f5bd",
+    "breadcrumbs": [
+      "How It Helps",
+      "howItHelps"
+    ],
+    "type": "howItHelps",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-book-appointment-20b0b011242a",
+    "title": "Ready to Book Your Appointment?",
+    "body": "Find trusted healthcare providers, guided by Raiqa AI.",
+    "page": "/raiqa-health-j2puns2-patient-book-appointment",
+    "sectionId": "20b0b011242a",
+    "breadcrumbs": [
+      "Book Appointment Section",
+      "bookAppointment"
+    ],
+    "type": "bookAppointment",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-practitioner-redirect-3b422738f07a",
+    "title": "Are You a Healthcare Practitioner?",
+    "body": "Grow your practice with Raiqa Health and help more patients every day.",
+    "page": "/raiqa-health-j2puns2-patient-practitioner-redirect",
+    "sectionId": "3b422738f07a",
+    "breadcrumbs": [
+      "Practitioner Redirect",
+      "practitionerRedirect"
+    ],
+    "type": "practitionerRedirect",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "whyRaiqaForPrac-300e14576bee",
+    "title": "Designed for the unique needs of General Practice.",
+    "body": "Whether you run a solo practice or a busy clinic, Raiqa Health helps you manage appointments, attract new patients, and optimise your time.",
+    "page": "/whyRaiqaForPrac",
+    "sectionId": "300e14576bee",
+    "breadcrumbs": [
+      "Why Raiqa For Practitioners",
+      "whyRaiqaForPrac"
+    ],
+    "type": "whyRaiqaForPrac",
+    "tags": [],
+    "nextPageRoute": "/practitioner/general"
+  },
+  {
+    "id": "weAreProtected-c74fa6f5bc90",
+    "title": "We Are Protected",
+    "body": "We Are Protected",
+    "page": "/weAreProtected",
+    "sectionId": "c74fa6f5bc90",
+    "breadcrumbs": [
+      "We Are Protected Section",
+      "trustSection"
+    ],
+    "type": "trustSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "practitionerHowItWorks-76b2cdb7a954",
+    "title": "Smart scheduling, simplified. More patients, less paperwork.",
+    "body": "Skip the waiting rooms and access care tailored for you — fast, easy, and reliable.",
+    "page": "/practitionerHowItWorks",
+    "sectionId": "76b2cdb7a954",
+    "breadcrumbs": [
+      "How It Works ",
+      "howItWorksPractitioner"
+    ],
+    "type": "howItWorksPractitioner",
+    "tags": [],
+    "nextPageRoute": "/practitioner/assistant"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-features-725b0b2e97af",
+    "title": "Your AI Healthcare Companion, 24/7",
+    "body": "From finding the right doctor to checking symptoms and managing appointments — Raiqa AI is here to help.",
+    "page": "/raiqa-health-j2puns2-patient-features",
+    "sectionId": "725b0b2e97af",
+    "breadcrumbs": [
+      "Features",
+      "features"
+    ],
+    "type": "features",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "practitionerAdvantage2-62a8d44811ed",
+    "title": "Less paperwork, more patient care.",
+    "body": "Manual scheduling, follow-ups, and reschedules pile up fast. Free up hours every week with intelligent automation.",
+    "page": "/practitionerAdvantage2",
+    "sectionId": "62a8d44811ed",
+    "breadcrumbs": [
+      "Admin OverLoad Section",
+      "practitionerAdvantages"
+    ],
+    "type": "practitionerAdvantages",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "practitionerReviews-331b5fec2791",
+    "title": "Hear from practitioners like you",
+    "body": "Real experiences from people like you",
+    "page": "/practitionerReviews",
+    "sectionId": "331b5fec2791",
+    "breadcrumbs": [
+      "Practitioner Reviews",
+      "patientStories"
+    ],
+    "type": "patientStories",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "newsResources-ca662a663014",
+    "title": "News",
+    "body": "News",
+    "page": "/newsResources",
+    "sectionId": "ca662a663014",
+    "breadcrumbs": [
+      "News Resources",
+      "resourcesSection"
+    ],
+    "type": "resourcesSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/resources"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-why-raiqa-61d190748654",
+    "title": "What Makes Raiqa Health So Different",
+    "body": "Human-Centred. Privacy-Focused. Built for You.",
+    "page": "/raiqa-health-j2puns2-patient-why-raiqa",
+    "sectionId": "61d190748654",
+    "breadcrumbs": [
+      "Why Raiqa Section",
+      "whyRaiqaSection"
+    ],
+    "type": "whyRaiqaSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "partnerships-37216e29fda3",
+    "title": "Trusted by leading healthcare providers across Australia.",
+    "body": "Trusted by leading healthcare providers across Australia.",
+    "page": "/partnerships",
+    "sectionId": "37216e29fda3",
+    "breadcrumbs": [
+      "Partnerships",
+      "partnershipsSection"
+    ],
+    "type": "partnershipsSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/general"
+  },
+  {
+    "id": "connectHero-01d53a57e627",
+    "title": "Join Raiqa Health Connect — Grow Your Practice Smarter",
+    "body": "Connect with patients directly, showcase your services, and let AI manage your bookings and admin. Set up your profile in minutes and become part of Australia’s trusted practitioner network.",
+    "page": "/connectHero",
+    "sectionId": "01d53a57e627",
+    "breadcrumbs": [
+      "Connect Hero Section",
+      "pracHomeHeroSection"
+    ],
+    "type": "pracHomeHeroSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/connect"
+  },
+  {
+    "id": "raiqa-health-j2puns2-initial-screen-ffecc9b366d6",
+    "title": "Healthcare",
+    "body": "Whether you're at home, at work, or on the go — Raiqa Health makes it easy to get medical support exactly when you need it.",
+    "page": "/raiqa-health-j2puns2-initial-screen",
+    "sectionId": "ffecc9b366d6",
+    "breadcrumbs": [
+      "Initial Screen",
+      "initialScreen"
+    ],
+    "type": "initialScreen",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "raiqa-health-j2puns2-initial-screen-94a9bbcf5abe",
+    "title": "Appointments powered by",
+    "body": "Raiqa AI takes care of it all—connecting you with the perfect doctor based on your symptoms and schedule. Think of it as your personal, always-on medical assistant.",
+    "page": "/raiqa-health-j2puns2-initial-screen",
+    "sectionId": "94a9bbcf5abe",
+    "breadcrumbs": [
+      "Initial Screen",
+      "initialScreen"
+    ],
+    "type": "initialScreen",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "raiqa-health-j2puns2-initial-screen-bdecf9f2e5d1",
+    "title": "One stop",
+    "body": "From GPs to mental health, specialists to allied health—Raiqa gives you one unified entry point to Australia’s best multidisciplinary care. ",
+    "page": "/raiqa-health-j2puns2-initial-screen",
+    "sectionId": "bdecf9f2e5d1",
+    "breadcrumbs": [
+      "Initial Screen",
+      "initialScreen"
+    ],
+    "type": "initialScreen",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "raiqa-health-j2puns2-about-us-clinics-01d886d9946e",
+    "title": "Clinics Across Australia Trust Raiqa Health",
+    "body": "From solo GPs to multidisciplinary practices, Raiqa helps modern clinics run smarter.",
+    "page": "/raiqa-health-j2puns2-about-us-clinics",
+    "sectionId": "01d886d9946e",
+    "breadcrumbs": [
+      "About Us Clinics",
+      "aboutUsClinics"
+    ],
+    "type": "aboutUsClinics",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "practitionerFeatures-6d6b6c19fc1c",
+    "title": "Raiqa AI Assistant — your practice’s smartest partner.",
+    "body": "Powerful tools to automate your workflow, understand your patients, and maximise your monetary benefits — all in one place.",
+    "page": "/practitionerFeatures",
+    "sectionId": "6d6b6c19fc1c",
+    "breadcrumbs": [
+      "Practitioner Features",
+      "practitionerFeatures"
+    ],
+    "type": "practitionerFeatures",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "whyJoinConnect-90baa192794c",
+    "title": "Grow your reach. Fill your calendar. Simplify your practice.",
+    "body": "Grow your reach. Fill your calendar. Simplify your practice.",
+    "page": "/whyJoinConnect",
+    "sectionId": "90baa192794c",
+    "breadcrumbs": [
+      "Why Join Raiqa Connect",
+      "whyJoinConnect"
+    ],
+    "type": "whyJoinConnect",
+    "tags": [],
+    "nextPageRoute": "/practitioner/connect"
+  },
+  {
+    "id": "raiqa-health-j2puns2-about-us-why-we-started-e1a071690c90",
+    "title": "Raiqa Health Mission",
+    "body": "Our mission is to revolutionize healthcare delivery through an intelligent, unified platform that empowers patients, practitioners, practices, and medical staff. At Raiqa Health, we harness artificial intelligence to transform traditional medical practice into a comprehensive healthcare management solution. We strive to enhance patient care, streamline clinical workflows, and ensure regulatory compliance while delivering personalized, data-driven insights that advance the practice of modern medicine.",
+    "page": "/raiqa-health-j2puns2-about-us-why-we-started",
+    "sectionId": "e1a071690c90",
+    "breadcrumbs": [
+      "About Us Why We Started",
+      "whyWeStarted"
+    ],
+    "type": "whyWeStarted",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "offerSection-5088224ab031",
+    "title": "Get a $500 onboarding credit when you join.",
+    "body": "When you register and activate you practitioner account ",
+    "page": "/offerSection",
+    "sectionId": "5088224ab031",
+    "breadcrumbs": [
+      "Offer Section",
+      "offerSection"
+    ],
+    "type": "offerSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/general"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-patient-stories-03cc4b7cfee8",
+    "title": "What Our Patients Are Saying",
+    "body": "Real experiences from people like you",
+    "page": "/raiqa-health-j2puns2-patient-patient-stories",
+    "sectionId": "03cc4b7cfee8",
+    "breadcrumbs": [
+      "Patient Stories",
+      "patientStories"
+    ],
+    "type": "patientStories",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "resourcesHero-e4020d944aaf",
+    "title": "Everything You Need to Succeed as a Practitioner",
+    "body": "From onboarding guides to billing FAQs, this is your go-to space to get answers, tips, and tools to grow your practice with AI.",
+    "page": "/resourcesHero",
+    "sectionId": "e4020d944aaf",
+    "breadcrumbs": [
+      "Resources Hero",
+      "resourcesHero"
+    ],
+    "type": "resourcesHero",
+    "tags": [],
+    "nextPageRoute": "/practitioner/resources"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-services-hero-d2ba53396acc",
+    "title": "Find the Right Care — Fast",
+    "body": "Raiqa Health connects you to a wide range of trusted Australian healthcare providers. Whether you need a quick checkup or ongoing care, we’ll help you book in seconds.",
+    "page": "/raiqa-health-j2puns2-patient-services-hero",
+    "sectionId": "d2ba53396acc",
+    "breadcrumbs": [
+      "Services Hero",
+      "serviceHeroSection"
+    ],
+    "type": "serviceHeroSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/assistant"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-services-472c0828ece9",
+    "title": "All the Care You Need, in One Place",
+    "body": "From everyday health concerns to specialist consultations.",
+    "page": "/raiqa-health-j2puns2-patient-services",
+    "sectionId": "472c0828ece9",
+    "breadcrumbs": [
+      "Services",
+      "servicesSection"
+    ],
+    "type": "servicesSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/assistant"
+  },
+  {
+    "id": "raiqa-health-j2puns2-faq-5523e97b8236",
+    "title": "Got questions? We’ve got answers.",
+    "body": "We've compiled the most important information to help you get the most out of your experience.",
+    "page": "/raiqa-health-j2puns2-faq",
+    "sectionId": "5523e97b8236",
+    "breadcrumbs": [
+      "FAQ Section",
+      "faqSection"
+    ],
+    "type": "faqSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "practitionerAdvantage1-f6c4e978d66b",
+    "title": "Unfilled slots mean lost revenue — every single day.",
+    "body": "Every missed appointment is an opportunity lost. Many practices see 20–30% of slots go unused, simply because patients can’t find the right time fast enough.",
+    "page": "/practitionerAdvantage1",
+    "sectionId": "f6c4e978d66b",
+    "breadcrumbs": [
+      "More Appointments",
+      "practitionerAdvantages"
+    ],
+    "type": "practitionerAdvantages",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "demoSection-cc0d33d05d75",
+    "title": "Ready to grow your practice?",
+    "body": "Join Raiqa Health network to build thriving, patient-focused practice.",
+    "page": "/demoSection",
+    "sectionId": "cc0d33d05d75",
+    "breadcrumbs": [
+      "Demo Section",
+      "practitionerDemo"
+    ],
+    "type": "practitionerDemo",
+    "tags": [],
+    "nextPageRoute": "/practitioner/about-us"
+  },
+  {
+    "id": "raiqa-health-j2puns2-cookies-048746fa5e3d",
+    "title": "Raiqa Health — Cookies Policy",
+    "body": "Raiqa Health — Cookies Policy",
+    "page": "/raiqa-health-j2puns2-cookies",
+    "sectionId": "048746fa5e3d",
+    "breadcrumbs": [
+      "Cookies",
+      "legalPage"
+    ],
+    "type": "legalPage",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-about-us-team-79cd51d8c94a",
+    "title": "Leadership That Understands Healthcare",
+    "body": "Our founding team brings together real clinical experience, engineering expertise, and product design thinking to build tools that truly help practitioners.",
+    "page": "/raiqa-health-j2puns2-about-us-team",
+    "sectionId": "79cd51d8c94a",
+    "breadcrumbs": [
+      "About Us Team",
+      "aboutUsTeam"
+    ],
+    "type": "aboutUsTeam",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-about-us-hero-e3c9d260e06d",
+    "title": "By Practitioners, For Practitioners",
+    "body": "We built Raiqa Health to solve the problems we faced every day in practice—delayed care, admin overload, and disconnected systems. Our AI-powered platform is the assistant we always wished we had.",
+    "page": "/raiqa-health-j2puns2-about-us-hero",
+    "sectionId": "e3c9d260e06d",
+    "breadcrumbs": [
+      "About Us Hero",
+      "aboutUsHero"
+    ],
+    "type": "aboutUsHero",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "singlePractitionerReview-80d2ff368f64",
+    "title": "Hear from practitioners like you",
+    "body": "Real experiences from people like you.",
+    "page": "/singlePractitionerReview",
+    "sectionId": "80d2ff368f64",
+    "breadcrumbs": [
+      "Single Practitioner Review",
+      "patientStories"
+    ],
+    "type": "patientStories",
+    "tags": [],
+    "nextPageRoute": "/practitioner/assistant"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-detailed-how-it-works-c2505494eda6",
+    "title": "How AI Matches You to the Right Doctor",
+    "body": "Tell us how you’re feeling, and our AI Assistant will guide you every step of the way. From symptom checking to finding the right doctor and booking your appointment, Raiqa Health makes care simple and personalised. Whether it’s a quick virtual consultation or ongoing support, getting the right help has never been this easy.",
+    "page": "/raiqa-health-j2puns2-patient-detailed-how-it-works",
+    "sectionId": "c2505494eda6",
+    "breadcrumbs": [
+      "Detailed How It Works Section",
+      "detailedHowItWorksSection"
+    ],
+    "type": "detailedHowItWorksSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-how-it-works-9f32cd97b889",
+    "title": "Smarter, Faster Appointments with Raiqa AI.",
+    "body": "Let our AI Assistant guide you to the right care — no forms, no confusion.",
+    "page": "/raiqa-health-j2puns2-patient-how-it-works",
+    "sectionId": "9f32cd97b889",
+    "breadcrumbs": [
+      "How It Works",
+      "howItWorks"
+    ],
+    "type": "howItWorks",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-assistant-hero-15c87d314f87",
+    "title": "Your Smart Healthcare Companion.",
+    "body": "Instant access to multidisciplinary care — from GPs to specialists to allied health, all powered by advanced AI to guide your journey. One place, every healthcare need.",
+    "page": "/raiqa-health-j2puns2-patient-assistant-hero",
+    "sectionId": "15c87d314f87",
+    "breadcrumbs": [
+      "Assistant Hero Section",
+      "assistantHeroSection"
+    ],
+    "type": "assistantHeroSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-alpha-why-raiqa-bee3c5499b6f",
+    "title": "Why Australians choose",
+    "body": "Why Australians choose",
+    "page": "/raiqa-health-j2puns2-alpha-why-raiqa",
+    "sectionId": "bee3c5499b6f",
+    "breadcrumbs": [
+      "Alpha Why Raiqa Section",
+      "alphaWhyRaiqaSection"
+    ],
+    "type": "alphaWhyRaiqaSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-how-it-works-hero-a3f5a1428ab6",
+    "title": "Smart, Simple, Personalised Care — Powered by AI",
+    "body": "Our AI doesn’t replace your doctor. It helps you find the right one, faster.",
+    "page": "/raiqa-health-j2puns2-patient-how-it-works-hero",
+    "sectionId": "a3f5a1428ab6",
+    "breadcrumbs": [
+      "How It Works Hero Section",
+      "howItWorksHeroSection"
+    ],
+    "type": "howItWorksHeroSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "practitionerAdvantages-85c1b96853fd",
+    "title": "Unfilled slots mean lost revenue — every single day.",
+    "body": "Every missed appointment is an opportunity lost. Many practices see 20–30% of slots go unused, simply because patients can’t find the right time fast enough.",
+    "page": "/practitionerAdvantages",
+    "sectionId": "85c1b96853fd",
+    "breadcrumbs": [
+      "Practitioner Advantages",
+      "practitionerAdvantages"
+    ],
+    "type": "practitionerAdvantages",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "practitionerAdvantages-e622f44d2915",
+    "title": "Less paperwork, more patient care.",
+    "body": "Manual scheduling, follow-ups, and reschedules pile up fast. Free up hours every week with intelligent automation.",
+    "page": "/practitionerAdvantages",
+    "sectionId": "e622f44d2915",
+    "breadcrumbs": [
+      "Practitioner Advantages",
+      "practitionerAdvantages"
+    ],
+    "type": "practitionerAdvantages",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "practitionerAdvantages-a3d29488a74d",
+    "title": "Attracting new patients shouldn’t feel like guesswork.",
+    "body": "Without the right tools, expanding your reach is slow and expensive. We simplify growth with smart, AI-driven patient matching.",
+    "page": "/practitionerAdvantages",
+    "sectionId": "a3d29488a74d",
+    "breadcrumbs": [
+      "Practitioner Advantages",
+      "practitionerAdvantages"
+    ],
+    "type": "practitionerAdvantages",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-chat-call-0084a10840a6",
+    "title": "Book Instantly: Chat or Talk with Raiqa AI",
+    "body": "Choose how you want to connect. Whether it’s messaging or voice, Raiqa AI is ready.",
+    "page": "/raiqa-health-j2puns2-patient-chat-call",
+    "sectionId": "0084a10840a6",
+    "breadcrumbs": [
+      "Chat Call Section",
+      "chatCallSection"
+    ],
+    "type": "chatCallSection",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "practitionerAssistantHero-4aee0d1c19bd",
+    "title": "Your AI-powered health practice partner.",
+    "body": "Automate your bookings, patient insights, and admin — so you can focus on care, not paperwork.",
+    "page": "/practitionerAssistantHero",
+    "sectionId": "4aee0d1c19bd",
+    "breadcrumbs": [
+      "Practitioner Assistant Hero",
+      "pracHomeHeroSection"
+    ],
+    "type": "pracHomeHeroSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/assistant"
+  },
+  {
+    "id": "raiqa-health-j2puns2-about-us-features-7003892c45ab",
+    "title": "Book Instantly: Chat or Talk with Raiqa AI",
+    "body": "Choose how you want to connect. Whether it’s messaging or voice, Raiqa AI is ready.",
+    "page": "/raiqa-health-j2puns2-about-us-features",
+    "sectionId": "7003892c45ab",
+    "breadcrumbs": [
+      "About Us Features",
+      "aboutUsFeatures"
+    ],
+    "type": "aboutUsFeatures",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "schedulingFeatures-8ff8170a8b3d",
+    "title": "Your personalized booking link — simple, seamless scheduling.",
+    "body": "Create your profile and unlock a dedicated booking page for your practice. Share it with patients directly, or let them book through your QR code.",
+    "page": "/schedulingFeatures",
+    "sectionId": "8ff8170a8b3d",
+    "breadcrumbs": [
+      "Scheduling Features",
+      "schedulingFeatures"
+    ],
+    "type": "schedulingFeatures",
+    "tags": [],
+    "nextPageRoute": "/practitioner/general"
+  },
+  {
+    "id": "practitionerTools-e71fed660647",
+    "title": "Smarter tools, better practice management.",
+    "body": "Our AI Assistant works behind the scenes to help you run a thriving practice, reduce no-shows, and keep patients happy.",
+    "page": "/practitionerTools",
+    "sectionId": "e71fed660647",
+    "breadcrumbs": [
+      "Practitioner Tools",
+      "practitionerTools"
+    ],
+    "type": "practitionerTools",
+    "tags": [],
+    "nextPageRoute": "/practitioner/assistant"
+  },
+  {
+    "id": "raiqa-health-j2puns2-patient-single-review-562b0fd3ca8f",
+    "title": "What Our Patients Are Saying",
+    "body": "Real experiences from people like you",
+    "page": "/raiqa-health-j2puns2-patient-single-review",
+    "sectionId": "562b0fd3ca8f",
+    "breadcrumbs": [
+      "Single Review",
+      "patientStories"
+    ],
+    "type": "patientStories",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "eventsResources-f0b03837aa48",
+    "title": "Events and Webinars",
+    "body": "Events and Webinars",
+    "page": "/eventsResources",
+    "sectionId": "f0b03837aa48",
+    "breadcrumbs": [
+      "Events & Webinars Resources",
+      "resourcesSection"
+    ],
+    "type": "resourcesSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/resources"
+  },
+  {
+    "id": "raiqa-health-j2puns2-terms-c52eba1913e2",
+    "title": "Raiqa Health — Terms and Conditions",
+    "body": "Raiqa Health — Terms and Conditions",
+    "page": "/raiqa-health-j2puns2-terms",
+    "sectionId": "c52eba1913e2",
+    "breadcrumbs": [
+      "Terms And Condition",
+      "legalPage"
+    ],
+    "type": "legalPage",
+    "tags": [],
+    "nextPageRoute": "/"
+  },
+  {
+    "id": "contactUs-276a74750ae7",
+    "title": "",
+    "body": "Have ",
+    "page": "/contactUs",
+    "sectionId": "276a74750ae7",
+    "breadcrumbs": [
+      "Contact",
+      "contactUsSection"
+    ],
+    "type": "contactUsSection",
+    "tags": [],
+    "nextPageRoute": null
+  },
+  {
+    "id": "blogResources-3cb8815cd63d",
+    "title": "Blogs",
+    "body": "Blogs",
+    "page": "/blogResources",
+    "sectionId": "3cb8815cd63d",
+    "breadcrumbs": [
+      "Blog Resources",
+      "resourcesSection"
+    ],
+    "type": "resourcesSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/resources"
+  },
+  {
+    "id": "practitionerValidation-5c78850edef6",
+    "title": "Practitioners love us",
+    "body": "Practitioners love us",
+    "page": "/practitionerValidation",
+    "sectionId": "5c78850edef6",
+    "breadcrumbs": [
+      "Practitioners Love Us",
+      "trustSection"
+    ],
+    "type": "trustSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/assistant"
+  },
+  {
+    "id": "joinRaiqaSection-0965aad61cca",
+    "title": "Register now and get $500 platform credit.",
+    "body": "Your journey with Raiqa Health starts here.  Register now to unlock.",
+    "page": "/joinRaiqaSection",
+    "sectionId": "0965aad61cca",
+    "breadcrumbs": [
+      "Join Raiqa Section",
+      "joinRaiqaSection"
+    ],
+    "type": "joinRaiqaSection",
+    "tags": [],
+    "nextPageRoute": "/practitioner/join"
+  }
+]

@@ -1,0 +1,43 @@
+# Raiqa Health - robots.txt
+# Allow all web crawlers to access all content by default
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://raiqa.health/sitemap.xml
+
+# Block access to API routes
+Disallow: /api/
+
+# Block access to admin paths
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /cms/
+Disallow: /studio/
+
+# Allow specific crawlers with custom rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Healthcare specific crawlers
+User-agent: Applebot
+Allow: /
+
+# Block specific files and directories
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Don't index error pages or drafts
+Disallow: /404
+Disallow: /500
+Disallow: /draft/ 

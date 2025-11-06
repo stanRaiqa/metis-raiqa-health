@@ -1,0 +1,901 @@
+{
+  "skin-care": {
+    "hero": {
+      "titleLines": [
+        "Effective",
+        " skin care,",
+        "  made simple."
+      ],
+      "description": "Clinically proven routines to protect, treat, and rejuvenate men’s skin. Doctor-prescribed care for acne, pigmentation, and ageing — delivered Australia-wide.",
+      "imageSrc": "/images/Skin_Care.jpg",
+      "imageAlt": "Hair loss treatment for men",
+      "primaryButton": {
+        "text": "Take the Quiz",
+        "href": "/get-started?treatment=hair-loss"
+      },
+      "secondaryButton": {
+        "text": "View Plans",
+        "href": "#subscription"
+      },
+      "overlay": {
+        "title": "Start Your Journey",
+        "items": [
+          "Doctor-Led. Proven.",
+          "100% Online & Confidential ",
+          "Continuous Care & Support",
+          "Smarter Plans, Better Value"
+        ]
+      }
+    },
+    "planSections": [
+      {
+        "subtitle": "Essential",
+        "heading": "Prevention Plan",
+        "description": "Built for men who want to protect their skin daily and prevent early signs of ageing or sun damage",
+        "pricing": 49,
+        "features": [
+          "Monthly prescription delivery",
+          "Online doctor consultation & review",
+          "Personalised SPF + antioxidant or retinol formula",
+          "Progress tracking and email support",
+          "Adjust your treatment anytime."
+        ],
+        "imageSrc": "/images/Skin_Care.jpg",
+        "imageAlt": "Prevention plan for skincare",
+        "imagePosition": "right",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=prevention",
+        "backgroundColor": "bg-brand-light",
+        "reverseOnMobile": true,
+        "gradientFalse": false
+      },
+      {
+        "subtitle": "Popular",
+        "heading": "Growth Plan",
+        "description": "Designed for men who want visible results from doctor-prescribed skincare and targeted skin treatments. ",
+        "pricing": 79,
+        "features": [
+          "Advanced prescription skincare",
+          "Priority doctor consultations",
+          "Detailed progress tracking",
+          "Priority email & chat support",
+          "Personalised treatment adjustments",
+          "Monthly progress reviews"
+        ],
+        "imageSrc": "/images/Skin_Care.jpg",
+        "imageAlt": "Growth plan for skincare",
+        "imagePosition": "left",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=growth",
+        "backgroundColor": "bg-brand-neutral-light",
+        "reverseOnMobile": false,
+        "gradientFalse": true
+      },
+      {
+        "subtitle": "Premium",
+        "heading": "Complete Care Plan",
+        "description": "Complete skincare with expert guidance, smart progress tracking, and dermatologist care, all from home.",
+        "pricing": 129,
+        "features": [
+          "Premium doctor-prescribed skincare",
+          "Unlimited online consultations",
+          "Advanced progress analytics & photo tracking",
+          "24/7 priority care and support",
+          "Fully customised treatment plans",
+          "Weekly dermatologist check-ins",
+          "Dedicated care coordinator",
+          "Complimentary treatment upgrades"
+        ],
+        "imageSrc": "/images/Skin_Care.jpg",
+        "imageAlt": "Complete care plan for skincare",
+        "imagePosition": "right",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=complete-care",
+        "backgroundColor": "bg-brand-light",
+        "reverseOnMobile": true,
+        "gradientFalse": false
+      }
+    ],
+    "subscription": {
+      "title": "Choose your right plan!",
+      "subtitle": "Select from best plans, ensuring a perfect match. Need more or less? Customize your subscription for a seamless fit!",
+      "plans": [
+        {
+          "id": "prevention",
+          "name": "Prevention",
+          "badge": "Essential",
+          "description": "For individuals who want to maintain their health and prevent future issues.",
+          "pricing": {
+            "monthly": 49
+          },
+          "features": [
+            "Monthly prescription delivery",
+            "Online doctor consultations",
+            "Basic progress tracking",
+            "Email support",
+            "Treatment adjustments"
+          ],
+          "icon": "Shield",
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started?plan=prevention"
+        },
+        {
+          "id": "growth",
+          "name": "Growth",
+          "badge": "Popular",
+          "description": "Suitable for those seeking active treatment and visible results.",
+          "pricing": {
+            "monthly": 79
+          },
+          "features": [
+            "Advanced prescription treatment",
+            "Priority doctor consultations",
+            "Detailed progress tracking",
+            "Priority email & chat support",
+            "Personalized treatment plans",
+            "Monthly progress reviews"
+          ],
+          "icon": "TrendingUp",
+          "popular": true,
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started?plan=growth"
+        },
+        {
+          "id": "complete-care",
+          "name": "Complete Care",
+          "badge": "Premium",
+          "description": "Ideal for comprehensive treatment with maximum support and customization.",
+          "pricing": {
+            "monthly": 129
+          },
+          "features": [
+            "Premium treatment protocols",
+            "Unlimited doctor consultations",
+            "Advanced progress analytics",
+            "24/7 priority support",
+            "Fully customized treatment plans",
+            "Weekly progress reviews",
+            "Dedicated care coordinator",
+            "Free additional treatments"
+          ],
+          "icon": "Sparkles",
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started?plan=complete-care"
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "Find Your Treatment Plan",
+      "subheading": "Choose Your Path",
+      "introText": "From acne treatment to sun-damage repair, HERO offers doctor-prescribed skincare plans tailored to your needs.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Tell Us About\n Your Health",
+          "subtitle": "Assess Your Skin Care Needs",
+          "description": "Answer a few simple questions to help our doctors build the right care plan for you. ",
+          "benefits": [
+            "Simple and quick — takes just a few minutes",
+            "Tailored to your health and lifestyle",
+            "100% private and secure",
+            "No pressure, no commitment"
+          ],
+          "imageSrc": "/images/Hair_loss_Treatment.jpg",
+          "imageAlt": "Skin care assessment quiz",
+          "icon": "ClipboardList",
+          "buttonText": "Start Your Quiz",
+          "buttonLink": "/get-started"
+        },
+        {
+          "id": 2,
+          "title": "Subscription",
+          "subtitle": "Pick Your Perfect Plan ",
+          "description": "Find a treatment plan designed around you — flexible, affordable, and easy to manage. ",
+          "benefits": [
+            "Flexible subscription options that fit your lifestyle",
+            "Personalised care plans guided by doctors",
+            "Pause, switch, or cancel anytime",
+            "Transparent monthly pricing with no hidden fees"
+          ],
+          "imageSrc": "/images/Skin_Care.jpg",
+          "imageAlt": "Hair care subscription plans",
+          "icon": "CreditCard",
+          "buttonText": "View Plans",
+          "buttonLink": "#subscription"
+        },
+        {
+          "id": 3,
+          "title": "Consultation",
+          "subtitle": "Stay Connected With Your Doctor ",
+          "description": "Talk to your doctor anytime through secure video calls or chat — get the guidance and support you need, right from home.",
+          "benefits": [
+            "Private and secure video consultations",
+            "Direct chat with your doctor for quick questions",
+            "Regular progress check-ins and follow-ups",
+            "Expert medical care made easy and accessible"
+          ],
+          "imageSrc": "/images/doctor.jpg",
+          "imageAlt": "Doctor consultation",
+          "icon": "MessageSquare",
+          "buttonText": "Learn More",
+          "buttonLink": "/get-started"
+        },
+        {
+          "id": 4,
+          "title": "Delivered to you",
+          "subtitle": "Your Treatment, Right at Home ",
+          "description": "Get your personalised care plan and products delivered straight to your door — fast, private, and hassle-free.",
+          "benefits": [
+            "Discreet, reliable delivery",
+            "Auto-refills for uninterrupted care",
+            "Easy order tracking and updates",
+            "Fast shipping right to your doorstep"
+          ],
+          "imageSrc": "/images/Hero_Image.jpg",
+          "imageAlt": "Treatment delivery",
+          "icon": "Package",
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started"
+        }
+      ]
+    },
+    "faqs": {
+      "eyebrow": "Need Answers?",
+      "title": "Frequently Asked Questions",
+      "description": "Get quick answers about our care model, prescriptions, and follow-up support.",
+      "items": [
+        {
+          "id": 1,
+          "question": "What skin concerns can HERO help with?",
+          "answer": "HERO offers doctor-prescribed treatments for acne, pigmentation, uneven tone, and early signs of ageing. Every plan is customised to your skin type and goals for clear, confident results."
+        },
+        {
+          "id": 2,
+          "question": "Are the skincare treatments prescription-based?",
+          "answer": "Yes. All HERO skincare plans are created and prescribed by qualified doctors after reviewing your online assessment. You'll receive products tailored to your skin's unique needs and condition."
+        },
+        {
+          "id": 3,
+          "question": "How soon will I notice visible improvements?",
+          "answer": "Most users begin to see healthier, clearer skin within 6–8 weeks when following their plan consistently. Your doctor will review your progress and adjust the treatment as needed."
+        },
+        {
+          "id": 4,
+          "question": "Can I use HERO if I have sensitive or reactive skin?",
+          "answer": "Definitely. HERO doctors design routines that match your skin's sensitivity level. If irritation occurs, your plan can be adjusted for comfort and results."
+        },
+        {
+          "id": 5,
+          "question": "Is everything handled online?",
+          "answer": "Yes — from your consultation to your prescription and delivery, everything happens online. You'll receive your skincare in discreet packaging with ongoing support from your doctor."
+        }
+      ]
+    }
+  },
+  "hair-care": {
+    "hero": {
+      "titleLines": [
+        "Regrow your hair with",
+        "doctor-prescribed treatments that work."
+      ],
+      "description": "Clinically proven solutions to stop hair loss and encourage regrowth prescribed by licensed doctors, delivered discreetly, and backed by real results. ",
+      "imageSrc": "/images/Hair_loss_Treatment.jpg",
+      "imageAlt": "Hair care treatment for men",
+      "primaryButton": {
+        "text": "Take the Quiz",
+        "href": "/get-started?treatment=hair-care"
+      },
+      "secondaryButton": {
+        "text": "View Plans",
+        "href": "#subscription"
+      },
+      "overlay": {
+        "title": "Why Choose Us?",
+        "items": [
+          "Evidence-based hair loss treatments",
+          "Discreet delivery and easy refills",
+          "Real doctors, real support",
+          "Visible results within months"
+        ]
+      }
+    },
+    "planSections": [
+      {
+        "subtitle": "Starter",
+        "heading": "Essential Plan",
+        "description": "Best for early-stage hair loss or thinning. Start your doctor-prescribed treatment and keep your hair strong. ",
+        "pricing": 45,
+        "features": [
+          "Topical treatment regimen",
+          "Monthly prescription delivery",
+          "Online doctor consultations",
+          "Simple progress tracking",
+          "Email support",
+          "Cancel anytime"
+        ],
+        "imageSrc": "/images/Hair_loss_Treatment.jpg",
+        "imageAlt": "Essential plan for hair care",
+        "imagePosition": "right",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=hair-essential",
+        "backgroundColor": "bg-brand-light",
+        "reverseOnMobile": true,
+        "gradientFalse": false
+      },
+      {
+        "subtitle": "Most Popular",
+        "heading": "Advanced Plan",
+        "description": "Our most recommended plan — combines oral and topical treatments prescribed by doctors for faster, fuller hair regrowth.",
+        "pricing": 85,
+        "features": [
+          "Doctor-prescribed oral & topical treatments",
+          "Priority doctor consultations",
+          "Advanced progress tracking",
+          "Priority chat & email support",
+          "Personalised treatment plans",
+          "Monthly progress reviews",
+          "Free shipping"
+        ],
+        "imageSrc": "/images/Hair_loss_Treatment.jpg",
+        "imageAlt": "Advanced plan for hair care",
+        "imagePosition": "left",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=hair-advanced",
+        "backgroundColor": "bg-brand-neutral-light",
+        "reverseOnMobile": false,
+        "gradientFalse": true
+      },
+      {
+        "subtitle": "Premium",
+        "heading": "Complete Plan",
+        "description": "The all-in-one hair restoration plan combining oral, topical, and nutritional treatments prescribed by doctors for maximum regrowth and support.",
+        "pricing": 135,
+        "features": [
+          "Doctor-prescribed oral & topical treatments",
+          "Daily hair-strengthening supplements",
+          "Advanced progress analytics",
+          "Unlimited doctor consultations",
+          "24/7 priority care & dedicated coordinator",
+          "Weekly progress reviews",
+          "Free express shipping"
+        ],
+        "imageSrc": "/images/Hair_loss_Treatment.jpg",
+        "imageAlt": "Complete plan for hair care",
+        "imagePosition": "right",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=hair-complete",
+        "backgroundColor": "bg-brand-light",
+        "reverseOnMobile": true,
+        "gradientFalse": false
+      }
+    ],
+    "subscription": {
+      "title": "Choose your hair restoration plan",
+      "subtitle": "Select the perfect plan for your hair loss stage. All plans include doctor consultations and can be adjusted as needed.",
+      "plans": [
+        {
+          "id": "hair-essential",
+          "name": "Essential",
+          "badge": "Starter",
+          "description": "Perfect for early-stage hair loss or prevention. Get started with proven treatments.",
+          "pricing": {
+            "monthly": 45
+          },
+          "features": [
+            "Topical treatment regimen",
+            "Monthly prescription delivery",
+            "Online doctor consultations",
+            "Basic progress tracking",
+            "Email support",
+            "Cancel anytime"
+          ],
+          "icon": "Shield",
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started?plan=hair-essential"
+        },
+        {
+          "id": "hair-advanced",
+          "name": "Advanced",
+          "badge": "Most Popular",
+          "description": "Our most popular plan. Combines multiple treatments for maximum hair regrowth results.",
+          "pricing": {
+            "monthly": 85
+          },
+          "features": [
+            "Doctor-prescribed oral medication",
+            "Advanced topical treatment",
+            "Priority doctor consultations",
+            "Advanced progress tracking",
+            "Priority chat & email support",
+            "Personalized treatment plans",
+            "Monthly progress reviews",
+            "Free shipping"
+          ],
+          "icon": "TrendingUp",
+          "popular": true,
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started?plan=hair-advanced"
+        },
+        {
+          "id": "hair-complete",
+          "name": "Complete",
+          "badge": "Premium",
+          "description": "Comprehensive hair restoration with premium treatments and dedicated support.",
+          "pricing": {
+            "monthly": 135
+          },
+          "features": [
+            "Doctor-prescribed oral medication",
+            "Advanced topical treatment",
+            "Specialized daily supplements",
+            "Nutrient-rich vitamin complex",
+            "Unlimited doctor consultations",
+            "Advanced progress analytics",
+            "24/7 priority support",
+            "Fully customized treatment",
+            "Weekly progress reviews",
+            "Dedicated care coordinator",
+            "Free express shipping"
+          ],
+          "icon": "Sparkles",
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started?plan=hair-complete"
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "Find Your Hair Regrowth Plan",
+      "subheading": "Choose Your Path",
+      "introText": "Whether you’re aiming to prevent hair loss, boost regrowth, or maintain healthy hair, HERO helps you find the right plan for your needs.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Tell Us About Your Health",
+          "subtitle": "Understand Your Hair Loss ",
+          "description": "Take a quick 5-minute quiz to help our doctors understand your hair loss pattern, lifestyle, and goals and get a personalised treatment plan built for you. ",
+          "benefits": [
+            "Quick 5-minute quiz",
+            "Personalised doctor-backed recommendations",
+            "100% secure and confidential",
+            "No pressure or commitment"
+          ],
+          "imageSrc": "/images/Hair_loss_Treatment.jpg",
+          "imageAlt": "Hair loss assessment quiz",
+          "icon": "ClipboardList",
+          "buttonText": "Start Your Quiz",
+          "buttonLink": "/get-started"
+        },
+        {
+          "id": 2,
+          "title": "Subscription",
+          "subtitle": "Find Your Perfect Treatment Plan ",
+          "description": "Choose a personalised hair restoration plan that fits your goals, lifestyle, and budget — flexible, affordable, and easy to manage. ",
+          "benefits": [
+            "Flexible subscription options",
+            "Personalised doctor-approved plans",
+            "Pause or cancel anytime",
+            "Simple monthly pricing"
+          ],
+          "imageSrc": "/images/Skin_Care.jpg",
+          "imageAlt": "Hair care subscription plans",
+          "icon": "CreditCard",
+          "buttonText": "View Plans",
+          "buttonLink": "#subscription"
+        },
+        {
+          "id": 3,
+          "title": "Consultation",
+          "subtitle": "Talk to Hair Loss Experts ",
+          "description": "Connect with licensed doctors who specialise in hair restoration through secure video calls or private chat — expert guidance, made easy. ",
+          "benefits": [
+            "Hair loss specialists you can trust",
+            "Secure video consultations",
+            "Direct chat with your doctor",
+            "Continuous support and progress tracking"
+          ],
+          "imageSrc": "/images/doctor.jpg",
+          "imageAlt": "Doctor consultation",
+          "icon": "MessageSquare",
+          "buttonText": "Learn More",
+          "buttonLink": "/get-started"
+        },
+        {
+          "id": 4,
+          "title": "Delivered to you",
+          "subtitle": "Receive Your Treatment",
+          "description": "Your personalised hair loss treatment is shipped safely and discreetly to your doorstep — no pharmacy visits, no hassle.",
+          "benefits": [
+            "Fast, discreet delivery",
+            "Convenient doorstep service",
+            "Easy auto-refills",
+            "Real-time order tracking"
+          ],
+          "imageSrc": "/images/Hero_Image.jpg",
+          "imageAlt": "Treatment delivery",
+          "icon": "Package",
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started"
+        }
+      ]
+    },
+    "faqs": {
+      "eyebrow": "Need Answers?",
+      "title": "Frequently Asked Questions",
+      "description": "Get quick answers about our care model, prescriptions, and follow-up support.",
+      "items": [
+        {
+          "id": 1,
+          "question": "How does HERO help with hair loss?",
+          "answer": "HERO connects you with licensed doctors who create a personalised treatment plan to slow down hair loss and encourage regrowth — all managed online and delivered to your door."
+        },
+        {
+          "id": 2,
+          "question": "Are the hair treatments doctor-prescribed?",
+          "answer": "Yes. Every plan is reviewed and prescribed by a qualified doctor after assessing your goals and hair condition. You'll receive safe, evidence-based treatments without visiting a clinic."
+        },
+        {
+          "id": 3,
+          "question": "How long does it take to see results?",
+          "answer": "Most users start noticing reduced hair fall and visible regrowth within three to six months of consistent use. Regular check-ins help your doctor track progress and make any needed adjustments."
+        },
+        {
+          "id": 4,
+          "question": "Can HERO help with early-stage hair thinning too?",
+          "answer": "Absolutely. Starting early often gives the best results. HERO offers tailored prevention and maintenance plans for men who want to protect their hair before significant loss begins."
+        },
+        {
+          "id": 5,
+          "question": "Is everything handled online?",
+          "answer": "Yes — from your consultation to your prescriptions and deliveries. All treatments are shipped discreetly across Australia, and you'll have continuous access to your care team for support."
+        }
+      ]
+    }
+  },
+  "sexual-health": {
+    "hero": {
+      "titleLines": [
+        "Doctor-prescribed ",
+        "sexual health treatment for men."
+      ],
+      "description": "Get expert care for performance and confidence with discreet consultations, private delivery and continuous support you can trust. ",
+      "imageSrc": "/images/Hero_Image.jpg",
+      "imageAlt": "Sexual health treatment for men",
+      "primaryButton": {
+        "text": "Take the Quiz",
+        "href": "/get-started?treatment=sexual-health"
+      },
+      "secondaryButton": {
+        "text": "View Plans",
+        "href": "#subscription"
+      },
+      "overlay": {
+        "title": "Start Your Journey",
+        "items": [
+          "Clinically Proven",
+          "Doctor Prescribed",
+          "100% Confidential",
+          "Ongoing Support"
+        ]
+    },
+    "planSections": [
+      {
+        "subtitle": "Essential",
+        "heading": "Prevention Plan",
+        "description": "Perfect for those starting their sexual wellness journey. Get professional, doctor-prescribed care designed to improve confidence and performance. ",
+        "pricing": 49,
+        "features": [
+          "Personalised treatment plan",
+          "Private online consultations",
+          "Monthly prescription delivery",
+          "Basic progress tracking",
+          "Ongoing support from your care team",
+          "Cancel anytime"
+        ],
+        "imageSrc": "/images/Hero_Image.jpg",
+        "imageAlt": "Prevention plan for sexual health",
+        "imagePosition": "right",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=prevention",
+        "backgroundColor": "bg-brand-light",
+        "reverseOnMobile": true,
+        "gradientFalse": false
+      },
+      {
+        "subtitle": "Popular",
+        "heading": "Advanced Plan",
+        "description": "Our most popular plan offers doctor-guided care to improve sexual wellness, boost confidence and deliver lasting results. ",
+        "pricing": 79,
+        "features": [
+          "Personalised plan combining advanced treatment and support",
+          "Priority doctor consultations",
+          "Regular progress tracking and updates",
+          "Priority chat and email support",
+          "Monthly progress reviews",
+          "Fast, discreet delivery"
+        ],
+        "imageSrc": "/images/Hero_Image.jpg",
+        "imageAlt": "Growth plan for sexual health",
+        "imagePosition": "left",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=growth",
+        "backgroundColor": "bg-brand-neutral-light",
+        "reverseOnMobile": false,
+        "gradientFalse": true
+      },
+      {
+        "subtitle": "Premium",
+        "heading": "Complete Care Plan",
+        "description": "Experience complete care with premium support and personalised treatment designed for lasting confidence and performance. All doctor-guided, private, and discreet. ",
+        "pricing": 129,
+        "features": [
+          "Comprehensive treatment plan tailored to your goals",
+          "Unlimited online doctor consultations",
+          "Regular progress reviews and adjustments",
+          "Dedicated care coordinator for ongoing support",
+          "24/7 priority access to your health team",
+          "Fast, discreet delivery to your door"
+        ],
+        "imageSrc": "/images/Hero_Image.jpg",
+        "imageAlt": "Complete care plan for sexual health",
+        "imagePosition": "right",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=complete-care",
+        "backgroundColor": "bg-brand-light",
+        "reverseOnMobile": true,
+        "gradientFalse": false
+      }
+    ]
+  },
+  "planSections": [
+      {
+        "subtitle": "Starter",
+        "heading": "Essential Plan",
+        "description": "Perfect for early-stage hair loss or prevention. Get started with proven treatments.",
+        "pricing": 45,
+        "features": [
+          "Topical treatment regimen",
+          "Monthly prescription delivery",
+          "Online doctor consultations",
+          "Basic progress tracking",
+          "Email support",
+          "Cancel anytime"
+        ],
+        "imageSrc": "/images/Hair_loss_Treatment.jpg",
+        "imageAlt": "Essential plan for hair care",
+        "imagePosition": "right",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=hair-essential",
+        "backgroundColor": "bg-brand-light",
+        "reverseOnMobile": true,
+        "gradientFalse": false
+      },
+      {
+        "subtitle": "Most Popular",
+        "heading": "Advanced Plan",
+        "description": "Our most popular plan. Combines multiple treatments for maximum hair regrowth results.",
+        "pricing": 85,
+        "features": [
+          "Doctor-prescribed oral medication",
+          "Advanced topical treatment",
+          "Priority doctor consultations",
+          "Advanced progress tracking",
+          "Priority chat & email support",
+          "Personalized treatment plans",
+          "Monthly progress reviews",
+          "Free shipping"
+        ],
+        "imageSrc": "/images/Hair_loss_Treatment.jpg",
+        "imageAlt": "Advanced plan for hair care",
+        "imagePosition": "left",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=hair-advanced",
+        "backgroundColor": "bg-brand-neutral-light",
+        "reverseOnMobile": false,
+        "gradientFalse": true
+      },
+      {
+        "subtitle": "Premium",
+        "heading": "Complete Plan",
+        "description": "Comprehensive hair restoration with premium treatments and dedicated support.",
+        "pricing": 135,
+        "features": [
+          "Doctor-prescribed oral medication",
+          "Advanced topical treatment",
+          "Specialized daily supplements",
+          "Nutrient-rich vitamin complex",
+          "Unlimited doctor consultations",
+          "Advanced progress analytics",
+          "24/7 priority support",
+          "Fully customized treatment",
+          "Weekly progress reviews",
+          "Dedicated care coordinator",
+          "Free express shipping"
+        ],
+        "imageSrc": "/images/Hair_loss_Treatment.jpg",
+        "imageAlt": "Complete plan for hair care",
+        "imagePosition": "right",
+        "ctaText": "Get Started",
+        "ctaLink": "/get-started?plan=hair-complete",
+        "backgroundColor": "bg-brand-light",
+        "reverseOnMobile": true,
+        "gradientFalse": false
+      }
+    ],
+    "subscription": {
+      "title": "Choose your right plan!",
+      "subtitle": "Select from best plans, ensuring a perfect match. Need more or less? Customize your subscription for a seamless fit!",
+      "plans": [
+        {
+          "id": "prevention",
+          "name": "Prevention",
+          "badge": "Essential",
+          "description": "For individuals who want to maintain their health and prevent future issues.",
+          "pricing": {
+            "monthly": 49
+          },
+          "features": [
+            "Monthly prescription delivery",
+            "Online doctor consultations",
+            "Basic progress tracking",
+            "Email support",
+            "Treatment adjustments"
+          ],
+          "icon": "Shield",
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started?plan=prevention"
+        },
+        {
+          "id": "growth",
+          "name": "Growth",
+          "badge": "Popular",
+          "description": "Suitable for those seeking active treatment and visible results.",
+          "pricing": {
+            "monthly": 79
+          },
+          "features": [
+            "Advanced prescription treatment",
+            "Priority doctor consultations",
+            "Detailed progress tracking",
+            "Priority email & chat support",
+            "Personalized treatment plans",
+            "Monthly progress reviews"
+          ],
+          "icon": "TrendingUp",
+          "popular": true,
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started?plan=growth"
+        },
+        {
+          "id": "complete-care",
+          "name": "Complete Care",
+          "badge": "Premium",
+          "description": "Ideal for comprehensive treatment with maximum support and customization.",
+          "pricing": {
+            "monthly": 129
+          },
+          "features": [
+            "Premium treatment protocols",
+            "Unlimited doctor consultations",
+            "Advanced progress analytics",
+            "24/7 priority support",
+            "Fully customized treatment plans",
+            "Weekly progress reviews",
+            "Dedicated care coordinator",
+            "Free additional treatments"
+          ],
+          "icon": "Sparkles",
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started?plan=complete-care"
+        }
+      ]
+    },
+    "howItWorks": {
+      "heading": "Find Your Treatment Plan",
+      "subheading": "Choose Your Path",
+      "introText": "Your health goals are unique. Choose a plan that’s tailored, private, and built around your journey.",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Quiz",
+          "subtitle": "Share Your Health Story",
+          "description": "Take a quick 5-minute quiz to help our doctors understand your health goals and design a plan that's made just for you.",
+          "benefits": [
+            "Simple 5-minute quiz",
+            "Personalised recommendations",
+            "100% private and secure",
+            "No pressure, no commitments"
+          ],
+          "imageSrc": "/images/Hair_loss_Treatment.jpg",
+          "imageAlt": "Health assessment quiz",
+          "icon": "ClipboardList",
+          "buttonText": "Start Your Quiz",
+          "buttonLink": "/get-started"
+        },
+        {
+          "id": 2,
+          "title": "Subscription",
+          "subtitle": "Find the Plan That Fits You",
+          "description": "Pick a personalised treatment plan designed for your needs, budget, and lifestyle — flexible, affordable, and easy to manage.",
+          "benefits": [
+            "Flexible monthly plans",
+            "Tailored treatments for your goals",
+            "Pause or cancel anytime",
+            "Simple, transparent pricing"
+          ],
+          "imageSrc": "/images/Skin_Care.jpg",
+          "imageAlt": "Treatment subscription plans",
+          "icon": "CreditCard",
+          "buttonText": "View Plans",
+          "buttonLink": "/get-started"
+        },
+        {
+          "id": 3,
+          "title": "Consultation",
+          "subtitle": "Talk to Your Doctor, Anytime",
+          "description": "Get expert care from trusted doctors through secure video calls or private messages. Stay connected with ongoing support and progress tracking.",
+          "benefits": [
+            "Private video consultations",
+            "Direct doctor messaging",
+            "Continuous care and check-ins",
+            "Trusted medical guidance"
+          ],
+          "imageSrc": "/images/doctor.jpg",
+          "imageAlt": "Doctor consultation",
+          "icon": "MessageSquare",
+          "buttonText": "Learn More",
+          "buttonLink": "/get-started"
+        },
+        {
+          "id": 4,
+          "title": "Delivered to you",
+          "subtitle": "Get Your Treatment at Home",
+          "description": "Your personalised treatment plan is delivered straight to your door — fast, private, and easy to manage.",
+          "benefits": [
+            "Quick, discreet delivery",
+            "Hassle-free doorstep service",
+            "Auto-refills for convenience",
+            "Easy order tracking"
+          ],
+          "imageSrc": "/images/Hero_Image.jpg",
+          "imageAlt": "Treatment delivery",
+          "icon": "Package",
+          "buttonText": "Get Started",
+          "buttonLink": "/get-started"
+        }
+      ]
+    },
+    "faqs": {
+      "eyebrow": "Need Answers?",
+      "title": "Frequently Asked Questions",
+      "description": "Get quick answers about our care model, prescriptions, and follow-up support.",
+      "items": [
+        {
+          "id": 1,
+          "question": "How does HERO help with men's sexual health?",
+          "answer": "HERO connects you with licensed doctors who understand men's sexual wellness. Your doctor creates a personalised plan to help improve performance and confidence; all handled privately online."
+        },
+        {
+          "id": 2,
+          "question": "Are the treatments prescribed by real doctors?",
+          "answer": "Yes. Every plan is reviewed and prescribed based on your health goals and assessment. You'll receive safe, evidence-based care through confidential online consultations."
+        },
+        {
+          "id": 3,
+          "question": "How long before I notice results?",
+          "answer": "Everyone responds differently, but most members start feeling more confident and notice improvement within a few weeks. Your doctor will check in and adjust your plan as needed."
+        },
+        {
+          "id": 4,
+          "question": "Is the process completely private?",
+          "answer": "Absolutely. From your consultation to your deliveries, everything is handled confidentially. Your details are secure, and all packaging is discreet."
+        },
+        {
+          "id": 5,
+          "question": "What if I'm not sure which plan to choose?",
+          "answer": "No problem, just start with the quick online quiz. It helps our doctors understand your needs and recommend the right treatment plan for you."
+        }
+      ]
+    }
+  }
+}
+

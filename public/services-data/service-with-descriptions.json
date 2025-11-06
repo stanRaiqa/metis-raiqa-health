@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Nurse",
+    "slug": "nurse",
+    "profession": "Nurse Practitioner",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": false,
+    "description": "Professional telehealth consultations for work, school, and carer's leave certificates. Fast, compliant, and includes digital certificate delivery for immediate documentation needs."
+  },
+  {
+    "name": "Midwife",
+    "slug": "midwife",
+    "profession": "Midwife",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": true,
+    "isMalePractitionerAvailable": false,
+    "isFemalePractitionerAvailable": true,
+    "description": "Comprehensive telehealth support for antenatal and postnatal care, including birth planning, maternal health assessment, and baby development guidance."
+  },
+  {
+    "name": "Pharmacist",
+    "slug": "pharmacist",
+    "profession": "Pharmacist",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": false,
+    "description": "Expert telehealth consultations for medication advice, prescription management, and pharmaceutical care, including chronic condition support."
+  },
+  {
+    "name": "Physiotherapist",
+    "slug": "physiotherapist",
+    "profession": "Physiotherapist",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": false,
+    "description": "Specialized telehealth sessions for musculoskeletal assessment, rehabilitation guidance, and exercise-based recovery programs."
+  },
+  {
+    "name": "Psychologist",
+    "slug": "psychologist",
+    "profession": "Psychologist",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": true,
+    "isMalePractitionerAvailable": true,
+    "isFemalePractitionerAvailable": true,
+    "description": "Expert telehealth psychological care and support services. Comprehensive assessments, therapy sessions, and guidance for mental health needs."
+  },
+  {
+    "name": "General Medical Practitioner",
+    "slug": "general-medical-practitioner",
+    "profession": "General Medical Practitioner",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": true,
+    "isMalePractitionerAvailable": true,
+    "isFemalePractitionerAvailable": true,
+    "description": "Expert telehealth general medical care services for a wide range of health concerns. Comprehensive assessments, consultations, and support for your needs."
+  },
+  {
+    "name": "Dietitian",
+    "slug": "dietitian",
+    "profession": "Accredited Practising Dietitian",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": false,
+    "description": "Expert telehealth nutrition and dietary advice services. Comprehensive assessments, personalized meal plans, and support for your nutritional needs."
+  },
+  {
+    "name": "Social Worker",
+    "slug": "social-worker",
+    "profession": "Accredited Mental Health Social Worker",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": false,
+    "description": "Expert telehealth social support and mental health care services. Comprehensive assessments, therapy sessions, and support for your needs."
+  },
+  {
+    "name": "Exercise Physiologist",
+    "slug": "exercise-physiologist",
+    "profession": "Accredited Exercise Physiologist",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": false,
+    "description": "Expert telehealth exercise physiology services for physical activity and rehabilitation. Comprehensive assessments, personalized exercise programs, and support for your needs."
+  },
+  {
+    "name": "Speech Pathologist",
+    "slug": "speech-pathologist",
+    "profession": "Speech Pathologist",
+    "serviceAvailableInThePlatform": true,
+    "genderSensitive": false,
+    "description": "Expert telehealth speech therapy services for communication and swallowing concerns. Comprehensive assessments, therapy sessions, and support for your needs."
+  }
+]

@@ -1,0 +1,484 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   MEN'S HEALTH DESIGN SYSTEM
+   Professional, Scalable, Modern
+   ============================================ */
+
+@layer base {
+  /* ============================================
+     🎨 SINGLE SOURCE OF TRUTH FOR ALL COLORS
+     ⚡ Update colors ONLY HERE - Everything else auto-updates!
+     ============================================ */
+  :root {
+    /* ============================================
+       PRIMARY COLORS - Main Brand Identity
+       ============================================ */
+    --color-primary: #134E24;           /* Botanic Green - Main identity color */
+    --color-primary-light: #1A6B32;     /* Lighter variant for hover states */
+    --color-primary-dark: #0D3A1A;      /* Darker variant for active states */
+    --color-primary-rgb: 19, 78, 36;    /* RGB values for opacity support */
+    
+    /* ============================================
+       BASE COLORS - Foundation
+       ============================================ */
+    --color-base-dark: #161616;         /* Charcoal - Main text & dark backgrounds */
+    --color-base-light: #FFFFFF;        /* White - Primary background */
+    
+    /* ============================================
+       SECONDARY COLORS - Supporting Palette
+       ============================================ */
+    --color-secondary-1: #2A6A3A;       /* Forest Tint - Surfaces, cards, product backgrounds */
+    --color-secondary-1-rgb: 42, 106, 58;  /* RGB values for opacity support */
+    --color-secondary-2: #D7E6D4;       /* Sage Mist - Highlights, clean UI zones */
+    --color-secondary-2-rgb: 215, 230, 212;  /* RGB values for opacity support */
+    
+    /* ============================================
+       CTA & INTERACTIVE - Buttons, Links, Actions
+       ============================================ */
+    --color-cta: #7BCFA9;               /* Herbal Mint - Call-to-action buttons, links */
+    --color-cta-hover: #5EAD8A;         /* Darker hover state */
+    --color-cta-active: #4D9F7A;        /* Active/pressed state */
+    
+    /* ============================================
+       ACCENT COLORS - Additional Brand Colors
+       ============================================ */
+    --color-accent: #BD5844;            /* Terracotta Red - Accent, highlights */
+    --color-accent-rgb: 189, 88, 68;    /* RGB values for opacity support */
+    
+    /* ============================================
+       NEUTRAL - UI Elements, Borders, Dividers
+       ============================================ */
+    --color-neutral: #E9E5D8;           /* Pale Sand - Dividers, borders, secondary text */
+    --color-neutral-dark: #C8C2B0;      /* Darker neutral for subtle elements */
+    --color-neutral-light: #F5F2E8;     /* Lighter neutral for backgrounds */
+    
+    /* ============================================
+       STATUS COLORS - Feedback & Notifications
+       ============================================ */
+    --color-success: #48C774;           /* Green - Success states */
+    --color-warning: #FFB84D;           /* Orange - Warning states */
+    --color-error: #E74C3C;             /* Red - Error states */
+    --color-info: #7BCFA9;              /* Herbal Mint - Info states */
+    
+    /* ============================================
+       2. TYPOGRAPHY SYSTEM
+       Poppins: Headings
+       Inter: Body
+       Space Grotesk: Numbers/Tech Data
+       ============================================ */
+    
+    /* Font Families */
+    --font-heading: var(--font-poppins), sans-serif;
+    --font-body: var(--font-inter), sans-serif;
+    --font-mono: var(--font-space-grotesk), monospace;
+    
+    /* Font Sizes - Mobile First (Base 16px) */
+    --font-size-xs: 0.75rem;      /* 12px */
+    --font-size-sm: 0.875rem;     /* 14px */
+    --font-size-base: 1rem;       /* 16px */
+    --font-size-lg: 1.125rem;     /* 18px */
+    --font-size-xl: 1.25rem;      /* 20px */
+    --font-size-2xl: 1.5rem;      /* 24px */
+    --font-size-3xl: 1.875rem;    /* 30px */
+    --font-size-4xl: 2.25rem;     /* 36px */
+    --font-size-5xl: 3rem;        /* 48px */
+    --font-size-6xl: 3.75rem;     /* 60px */
+    --font-size-7xl: 4.5rem;      /* 72px */
+    
+    /* Font Weights */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    /* Line Heights */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    --line-height-loose: 2;
+    
+    /* Letter Spacing */
+    --letter-spacing-tight: -0.02em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: 0.025em;
+    --letter-spacing-wider: 0.05em;
+    
+    /* ============================================
+       3. SPACING SYSTEM (8px base)
+       Consistent, scalable spacing
+       ============================================ */
+    --space-0: 0;
+    --space-1: 0.25rem;   /* 4px */
+    --space-2: 0.5rem;    /* 8px */
+    --space-3: 0.75rem;   /* 12px */
+    --space-4: 1rem;      /* 16px */
+    --space-5: 1.25rem;   /* 20px */
+    --space-6: 1.5rem;    /* 24px */
+    --space-8: 2rem;      /* 32px */
+    --space-10: 2.5rem;   /* 40px */
+    --space-12: 3rem;     /* 48px */
+    --space-16: 4rem;     /* 64px */
+    --space-20: 5rem;     /* 80px */
+    --space-24: 6rem;     /* 96px */
+    --space-32: 8rem;     /* 128px */
+    
+    /* ============================================
+       4. LAYOUT SYSTEM
+       Container sizes, breakpoints
+       ============================================ */
+    --container-xs: 20rem;      /* 320px */
+    --container-sm: 24rem;      /* 384px */
+    --container-md: 28rem;      /* 448px */
+    --container-lg: 32rem;      /* 512px */
+    --container-xl: 36rem;      /* 576px */
+    --container-2xl: 42rem;     /* 672px */
+    --container-3xl: 48rem;     /* 768px */
+    --container-4xl: 56rem;     /* 896px */
+    --container-5xl: 64rem;     /* 1024px */
+    --container-6xl: 72rem;     /* 1152px */
+    --container-7xl: 80rem;     /* 1280px */
+    --container-full: 90rem;    /* 1440px */
+    
+    /* ============================================
+       5. BORDER & RADIUS
+       Consistent border styling
+       ============================================ */
+    --border-radius-sm: 0.25rem;   /* 4px */
+    --border-radius-md: 0.5rem;    /* 8px */
+    --border-radius-lg: 0.75rem;   /* 12px */
+    --border-radius-xl: 1rem;      /* 16px */
+    --border-radius-2xl: 1.5rem;   /* 24px */
+    --border-radius-full: 9999px;
+    
+    --border-width-thin: 1px;
+    --border-width-medium: 2px;
+    --border-width-thick: 4px;
+    
+    /* ============================================
+       6. SHADOWS
+       Elevation system
+       ============================================ */
+    --shadow-xs: 0 1px 2px 0 rgba(22, 22, 22, 0.05);
+    --shadow-sm: 0 1px 3px 0 rgba(22, 22, 22, 0.1), 0 1px 2px -1px rgba(22, 22, 22, 0.1);
+    --shadow-md: 0 4px 6px -1px rgba(22, 22, 22, 0.1), 0 2px 4px -2px rgba(22, 22, 22, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(22, 22, 22, 0.1), 0 4px 6px -4px rgba(22, 22, 22, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(22, 22, 22, 0.1), 0 8px 10px -6px rgba(22, 22, 22, 0.1);
+    --shadow-2xl: 0 25px 50px -12px rgba(22, 22, 22, 0.25);
+    
+    /* ============================================
+       7. TRANSITIONS
+       Smooth, performant animations
+       ============================================ */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slower: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Easing functions */
+    --ease-in: cubic-bezier(0.4, 0, 1, 1);
+    --ease-out: cubic-bezier(0, 0, 0.2, 1);
+    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* ============================================
+       8. Z-INDEX SCALE
+       Consistent layering
+       ============================================ */
+    --z-base: 0;
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+  }
+  
+  /* ============================================
+     DARK MODE (Optional)
+     ============================================ */
+  .dark {
+    --color-base-dark: #FFFFFF;
+    --color-base-light: #161616;
+    --color-secondary-1: #3D8A52;
+    --color-neutral: #5A5649;
+    --color-neutral-light: #2A2A2A;
+  }
+}
+
+@layer base {
+  /* ============================================
+     BASE STYLES
+     ============================================ */
+  * {
+    @apply border-brand-neutral;
+  }
+  
+  html {
+    @apply scroll-smooth antialiased;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    @apply bg-[var(--color-base-light)] text-[var(--color-base-dark)];
+    font-family: var(--font-body);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+  }
+  
+  /* ============================================
+     TYPOGRAPHY ELEMENTS
+     ============================================ */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    letter-spacing: var(--letter-spacing-tight);
+    color: var(--color-base-dark);
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: var(--font-size-5xl);
+  }
+  
+  h2 {
+    font-size: var(--font-size-4xl);
+  }
+  
+  h3 {
+    font-size: var(--font-size-3xl);
+  }
+  
+  h4 {
+    font-size: var(--font-size-2xl);
+  }
+  
+  h5 {
+    font-size: var(--font-size-xl);
+  }
+  
+  h6 {
+    font-size: var(--font-size-lg);
+  }
+  
+  p {
+    font-family: var(--font-body);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-relaxed);
+    margin: 0;
+  }
+  
+  a {
+    color: var(--color-cta);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+  
+  a:hover {
+    color: var(--color-cta-hover);
+  }
+  
+  /* ============================================
+     PERFORMANCE OPTIMIZATIONS
+     ============================================ */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    will-change: transform;
+  }
+  
+  .optimize-animation {
+    will-change: transform, opacity;
+    transform: translateZ(0);
+  }
+
+  .content-defer {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 500px;
+  }
+}
+
+@layer components {
+  /* ============================================
+     COMPONENT UTILITIES
+     ============================================ */
+  
+  /* Container */
+  .container-custom {
+    width: 100%;
+    max-width: var(--container-7xl);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+  }
+  
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center;
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-semibold);
+    border-radius: var(--border-radius-lg);
+    transition: all var(--transition-base);
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .btn-primary {
+    background-color: var(--color-cta);
+    color: var(--color-base-light);
+    padding: var(--space-3) var(--space-6);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--color-cta-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+  
+  .btn-secondary {
+    background-color: var(--color-secondary-2);
+    color: var(--color-base-dark);
+    padding: var(--space-3) var(--space-6);
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    color: var(--color-cta);
+    border: var(--border-width-medium) solid var(--color-cta);
+    padding: var(--space-3) var(--space-6);
+  }
+  
+  .btn-outline:hover {
+    background-color: var(--color-cta);
+    color: var(--color-base-light);
+  }
+  
+  /* Cards */
+  .card {
+    background-color: var(--color-base-light);
+    border-radius: var(--border-radius-xl);
+    padding: var(--space-6);
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-base);
+  }
+  
+  .card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+  }
+  
+  /* Sections */
+  .section {
+    padding-top: var(--space-16);
+    padding-bottom: var(--space-16);
+  }
+  
+  /* Typography Utilities */
+  .text-heading {
+    font-family: var(--font-heading);
+  }
+  
+  .text-body {
+    font-family: var(--font-body);
+  }
+  
+  .text-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@layer utilities {
+  /* ============================================
+     UTILITY CLASSES
+     ============================================ */
+  
+  /* Animations */
+.lazy-load-image {
+  opacity: 0;
+    transition: opacity var(--transition-base);
+}
+
+.lazy-load-image.loaded {
+  opacity: 1;
+}
+
+.use-transform {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(10px);
+      transition: opacity var(--transition-slow), transform var(--transition-slow);
+  }
+
+  .animate-on-scroll.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  /* Scrollbar */
+.no-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;    
+}
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Gradient Backgrounds */
+  .gradient-primary {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-cta) 100%);
+  }
+  
+  .gradient-secondary {
+    background: linear-gradient(135deg, var(--color-secondary-1) 0%, var(--color-secondary-2) 100%);
+  }
+  
+  /* Text Gradients */
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-cta) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* ============================================
+   RESPONSIVE TYPOGRAPHY
+   Desktop adjustments
+   ============================================ */
+@media (min-width: 768px) {
+  :root {
+    --font-size-5xl: 4rem;     /* 64px */
+    --font-size-6xl: 5rem;     /* 80px */
+    --font-size-7xl: 6rem;     /* 96px */
+  }
+}
+
+/* ============================================
+   LEGACY COMPATIBILITY
+   (Remove these after migration)
+   ============================================ */
+.ellipse-background {
+  position: relative;
+}
+
+.border-gradient {
+  border: 1px solid transparent;
+  background: 
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom right, var(--color-primary), var(--color-cta)) border-box;
+}

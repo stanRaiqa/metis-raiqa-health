@@ -1,0 +1,422 @@
+[
+  {
+    "events": [
+      {
+        "description": "Brief telehealth follow-up for post-treatment review, oral health advice, or quick assessment. Physical dental procedures require in-person visits as per AHPRA guidelines.",
+        "isGuest": true,
+        "length": 10,
+        "originalPrice": 39.9,
+        "price": 39.9,
+        "slug": "short-consult-guest",
+        "title": "Short Consultation"
+      },
+      {
+        "description": "Telehealth consultation for dental health assessment, oral care planning, or non-urgent concerns. Physical examinations require in-person visits.",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 69.9,
+        "price": 69.9,
+        "slug": "standard-consult-guest",
+        "title": "Standard Consultation"
+      },
+      {
+        "description": "Extended telehealth consultation for detailed oral health planning, comprehensive dental advice, or treatment option discussions.",
+        "isGuest": true,
+        "length": 30,
+        "originalPrice": 89.9,
+        "price": 89.9,
+        "slug": "long-consult-guest",
+        "title": "Long Consultation"
+      },
+      {
+        "description": "Comprehensive telehealth session for complex dental health concerns, detailed treatment planning, or extensive oral health education.",
+        "isGuest": true,
+        "length": 45,
+        "originalPrice": 109.9,
+        "price": 109.9,
+        "slug": "extended-consult-guest",
+        "title": "Extended Consultation"
+      }
+    ],
+    "genderSensitive": false,
+    "isFemalePractitionerAvailable": false,
+    "isMalePractitionerAvailable": true,
+    "name": "Dental Practitioner",
+    "profession": "Dental Practitioner",
+    "serviceAvailableInThePlatform": true,
+    "slug": "dental-practitioner"
+  },
+  {
+    "events": [
+      {
+        "description": "Brief telehealth check-in for follow-up, medication review, or simple health concerns. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 10,
+        "originalPrice": 65,
+        "price": 0,
+        "slug": "short-consult-guest-free",
+        "title": "Short/Follow up Consultation"
+      },
+      {
+        "description": "Routine telehealth consultation for common health concerns, assessments, and advice. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 0,
+        "slug": "standard-consult-guest-free",
+        "title": "Standard Consultation"
+      },
+      {
+        "description": "Safe and appropriate prescription renewal via telehealth for ongoing medications following clinical assessment.",
+        "icon": "Pill",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 0,
+        "slug": "prescriptions-guest-free",
+        "title": "Prescriptions"
+      },
+      {
+        "description": "Professional telehealth assessment and documentation for work, education or insurance requirements.",
+        "icon": "FileText",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 0,
+        "slug": "medical-certificates-guest-free",
+        "title": "Medical certificates"
+      },
+      {
+        "description": "Telehealth assessment and referral to appropriate specialists based on specific health needs. Requires adequate history and examination via telehealth.",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 0,
+        "slug": "specialist-referrals-guest-free",
+        "title": "Specialist referrals"
+      },
+      {
+        "description": "Evidence-based telehealth weight management consultation with personalized lifestyle and medical intervention plans.",
+        "icon": "Weight",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 110,
+        "price": 0,
+        "slug": "weight-loss-free",
+        "title": "Weight loss"
+      },
+      {
+        "description": "Supportive telehealth care for anxiety, depression and stress with evidence-based treatment options. Medicare rebates may apply with a valid Mental Health Treatment Plan.",
+        "genderSensitive": true,
+        "icon": "Brain",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 125,
+        "price": 0,
+        "slug": "mental-health-consult-on-us",
+        "title": "Mental health"
+      },
+      {
+        "description": "Extended telehealth consultation for complex health concerns, detailed planning, or in-depth medical discussion. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 30,
+        "originalPrice": 125,
+        "price": 99.9,
+        "slug": "long-consult-guest",
+        "title": "Long Consultation"
+      },
+      {
+        "description": "Comprehensive telehealth session for complex health needs, multidisciplinary care planning, or ongoing support. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 45,
+        "originalPrice": 169,
+        "price": 139.9,
+        "slug": "extended-consult-guest",
+        "title": "Extended Consultation"
+      },
+      {
+        "description": "Telehealth consultation for issuing multi-day medical certificates. In accordance with AHPRA guidelines, certificates can only be dated from the consultation date.",
+        "isGuest": true,
+        "length": 10,
+        "originalPrice": 55,
+        "price": 39.9,
+        "slug": "multi-day-certificate-guest",
+        "title": "Multi-Day Certificate"
+      },
+      {
+        "description": "Professional telehealth assessment of hair loss causes with treatment options based on clinical evidence.",
+        "icon": "Sparkles",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 79.9,
+        "slug": "hair-loss-guest",
+        "title": "Hair loss"
+      },
+      {
+        "description": "Comprehensive telehealth approach to pain management using evidence-based treatments and support strategies.",
+        "icon": "Flower2",
+        "isGuest": true,
+        "length": 30,
+        "originalPrice": 125,
+        "price": 79.9,
+        "slug": "chronic-pain-management-guest",
+        "title": "Chronic pain management"
+      },
+      {
+        "description": "Telehealth assessment and treatment plans for common skin conditions including eczema, acne, and rashes. Some conditions may require in-person assessment.",
+        "genderSensitive": true,
+        "icon": "Sparkles",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 79.9,
+        "slug": "skin-care-guest",
+        "title": "Skin care"
+      },
+      {
+        "description": "Comprehensive telehealth care for women's health concerns including contraception, STI testing and reproductive health.",
+        "genderSensitive": true,
+        "icon": "Heart",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 79.9,
+        "slug": "womens-health-guest",
+        "title": "Women's health"
+      },
+      {
+        "description": "Evidence-based telehealth management of menopausal symptoms and guidance on treatment options.",
+        "genderSensitive": true,
+        "icon": "Sun",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 79.9,
+        "slug": "menopause-guest",
+        "title": "Menopause"
+      },
+      {
+        "description": "Comprehensive telehealth care for men's health including sexual health, prostate concerns and preventive screening.",
+        "genderSensitive": true,
+        "icon": "UserRound",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 79.9,
+        "slug": "mens-health-guest",
+        "title": "Men's health"
+      },
+      {
+        "description": "Initial telehealth assessment and advice on fertility concerns with appropriate investigation planning. Some investigations require in-person testing.",
+        "genderSensitive": true,
+        "icon": "Baby",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 79.9,
+        "slug": "fertility-guest",
+        "title": "Fertility"
+      },
+      {
+        "description": "Evidence-based telehealth strategies and support to help you quit smoking with personalized cessation plans.",
+        "icon": "Cigarette",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 79.9,
+        "slug": "quit-nicotine-guest",
+        "title": "Quit nicotine"
+      },
+      {
+        "description": "Safe and appropriate prescription renewal via telehealth for ongoing medications following clinical assessment.",
+        "icon": "Pill",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 19.9,
+        "slug": "prescriptions-guest",
+        "title": "Prescriptions"
+      },
+      {
+        "description": "Professional telehealth assessment and documentation for work, education or insurance requirements.",
+        "icon": "FileText",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 19.9,
+        "slug": "medical-certificates-guest",
+        "title": "Medical certificates"
+      },
+      {
+        "description": "Professional telehealth assessment with appropriate pathology testing requests based on clinical indications.",
+        "icon": "TestTube",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 55,
+        "price": 29.9,
+        "slug": "pathology-referrals-guest",
+        "title": "Pathology referrals"
+      }
+    ],
+    "genderSensitive": true,
+    "isFemalePractitionerAvailable": true,
+    "isMalePractitionerAvailable": true,
+    "name": "General Practice",
+    "profession": "General Practitioner",
+    "serviceAvailableInThePlatform": true,
+    "slug": "general-practice"
+  },
+  {
+    "events": [
+      {
+        "description": "Brief telehealth check-in for follow-up, medication review, or simple health concerns. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 10,
+        "originalPrice": 65,
+        "price": 0,
+        "slug": "short-consult-guest-free",
+        "title": "Short/Follow up Consultation"
+      },
+      {
+        "description": "Routine telehealth consultation for common health concerns, assessments, and advice. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 0,
+        "slug": "standard-consult-guest-free",
+        "title": "Standard Consultation"
+      },
+      {
+        "description": "Professional telehealth assessment and documentation for work, education or insurance requirements.",
+        "icon": "FileText",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 0,
+        "slug": "medical-certificates-guest-free",
+        "title": "Medical certificates"
+      },
+      {
+        "description": "Telehealth assessment and referral to appropriate specialists based on specific health needs. Requires adequate history and examination via telehealth.",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 0,
+        "slug": "specialist-referrals-guest-free",
+        "title": "Specialist referrals"
+      },
+      {
+        "description": "Safe and appropriate prescription renewal via telehealth for ongoing medications following clinical assessment.",
+        "icon": "Pill",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 0,
+        "slug": "prescriptions-guest-free",
+        "title": "Prescriptions"
+      },
+      {
+        "description": "Brief telehealth check-in for follow-up, medication review, or simple health concerns. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 10,
+        "originalPrice": 65,
+        "price": 39.9,
+        "slug": "short-consult-guest",
+        "title": "Short/Follow up Consultation"
+      },
+      {
+        "description": "Routine telehealth consultation for common health concerns, assessments, and advice. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 20,
+        "originalPrice": 99,
+        "price": 49.9,
+        "slug": "standard-consult-guest",
+        "title": "Standard Consultation"
+      },
+      {
+        "description": "Extended telehealth consultation for complex health concerns, detailed planning, or in-depth medical discussion. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 30,
+        "originalPrice": 125,
+        "price": 99.9,
+        "slug": "long-consult-guest",
+        "title": "Long Consultation"
+      },
+      {
+        "description": "Comprehensive telehealth session for complex health needs, multidisciplinary care planning, or ongoing support. Medicare rebates may apply for eligible patients.",
+        "isGuest": true,
+        "length": 45,
+        "originalPrice": 169,
+        "price": 139.9,
+        "slug": "extended-consult-guest",
+        "title": "Extended Consultation"
+      },
+      {
+        "description": "Telehealth consultation for issuing multi-day medical certificates. In accordance with AHPRA guidelines, certificates can only be dated from the consultation date.",
+        "isGuest": true,
+        "length": 10,
+        "originalPrice": 55,
+        "price": 29.9,
+        "slug": "multi-day-certificate-guest",
+        "title": "Multi-Day Certificate"
+      },
+      {
+        "description": "Telehealth assessment and referral to appropriate specialists based on specific health needs. Requires adequate history and examination via telehealth.",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 29.9,
+        "slug": "specialist-referrals-guest",
+        "title": "Specialist referrals"
+      },
+      {
+        "description": "Comprehensive telehealth approach to pain management using evidence-based treatments and support strategies.",
+        "icon": "Flower2",
+        "isGuest": true,
+        "length": 30,
+        "originalPrice": 125,
+        "price": 59.9,
+        "slug": "chronic-pain-management-guest",
+        "title": "Chronic pain management"
+      },
+      {
+        "description": "Safe and appropriate prescription renewal via telehealth for ongoing medications following clinical assessment.",
+        "icon": "Pill",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 19.9,
+        "slug": "prescriptions-guest",
+        "title": "Prescriptions"
+      },
+      {
+        "description": "Professional telehealth assessment and documentation for work, education or insurance requirements.",
+        "icon": "FileText",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 45,
+        "price": 19.9,
+        "slug": "medical-certificates-guest",
+        "title": "Medical certificates"
+      },
+      {
+        "description": "Professional telehealth assessment with appropriate pathology testing requests based on clinical indications.",
+        "icon": "TestTube",
+        "isGuest": true,
+        "length": 5,
+        "originalPrice": 55,
+        "price": 29.9,
+        "slug": "pathology-referrals-guest",
+        "title": "Pathology referrals"
+      }
+    ],
+    "genderSensitive": true,
+    "isFemalePractitionerAvailable": true,
+    "isMalePractitionerAvailable": true,
+    "name": "General Medical Practitioner",
+    "profession": "General Medical Practitioner",
+    "serviceAvailableInThePlatform": true,
+    "slug": "general-medical-practitioner"
+  }
+]
