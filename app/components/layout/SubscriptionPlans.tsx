@@ -31,10 +31,10 @@ export default function SubscriptionPlans() {
     ];
 
     return (
-        <section id="subscription" className="relative bg-brand-neutral py-16 mx-4 rounded-xl lg:py-24 overflow-hidden border-t border-brand-neutral-light">
+        <section id="subscription" className="relative bg-brand-neutral py-16 mx-4 rounded-xl lg:py- overflow-hidden border-t border-brand-neutral-light">
             <div className="max-w-[1280px] mx-auto px-8">
                 {/* Main Content - Two Column Layout */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16 lg:mb-24">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center ">
                     
                     {/* Left - Pricing Content */}
                     <motion.div
