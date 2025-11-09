@@ -27,9 +27,9 @@ interface HomeGetStartedProps {
 }
 
 export default function HomeGetStarted({
-    overline = "Let's get started!",
+    overline = "Ready to take control?",
     heading = "Ready to Take Control of Your Health?",
-    primaryButtonText = "Get started now",
+    primaryButtonText = "Get Started Now →",
     primaryButtonLink = "/get-started",
     secondaryButtonText = "See pricing",
     secondaryButtonLink = "#subscription"
@@ -55,13 +55,13 @@ export default function HomeGetStarted({
                         className="flex-1"
                     >
                         {/* Overline */}
-                        <Body3 className="text-white/90 italic uppercase mb-4 r">
+                        <Body3 className="text-white/90 italic mb-4 r">
                             {overline}
                         </Body3>
 
                         {/* Main Heading */}
                         <Header3 className="text-white !font-medium max-w-2xl">
-                            {heading}
+                            Your transformation starts here.
                         </Header3>
                     </motion.div>
 

@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <footer className="relative bg-brand-primary-dark mx-4 rounded-lg my-2 text-white overflow-hidden">
       {/* Newsletter Section */}
-      <div className="border-b border-white/10">
+      <div className="border-b border-white/10 bg-brand-primary-light">
         <div className="max-w-[1280px] mx-auto px-8 py-12 lg:py-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             {/* Left - Tagline */}
@@ -34,7 +34,7 @@ export default function Footer() {
             {/* Right - Newsletter Form */}
             <div className="relative">
               {/* Heart Icon */}
-              <div className="absolute -top-8 right-0 hidden lg:block">
+              <div className="absolute -top-8 right-0 mb-4 hidden lg:block">
                 <Heart className="w-20 h-20 text-white fill-white" />
               </div>
               
@@ -42,7 +42,7 @@ export default function Footer() {
                 Subscribe for helpful insight and resources.
               </p>
               
-              <form onSubmit={handleSubscribe} className="flex gap-3 mb-3">
+              <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 mb-3">
                 <input
                   type="email"
                   value={email}
@@ -104,11 +104,8 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Header6 className="!font-medium text-white text-lg  mb-4">About us</Header6>
             <div className="flex flex-col gap-2">
-              <Link href="/faq" className="hover:underline">
+              <Link href="/#faqs" className="hover:underline">
                 <Body3 className="text-white/80">FAQs</Body3>
-              </Link>
-              <Link href="/news" className="hover:underline">
-                <Body3 className="text-white/80">News</Body3>
               </Link>
               <Link href="/contact" className="hover:underline">
                 <Body3 className="text-white/80">Contact Us</Body3>

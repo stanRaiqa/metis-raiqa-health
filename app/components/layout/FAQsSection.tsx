@@ -29,7 +29,7 @@ export default function FAQsSection({
     faqs,
 }: FAQsSectionProps) {
     return (
-        <section className={`relative ${backgroundColor} py-16 lg:py-24 overflow-hidden`} id={id}>
+        <section className={`relative ${backgroundColor} py-16 lg:py-24 overflow-hidden`} id={id} >
             <div className="max-w-[1280px] mx-auto px-8">
                 {(eyebrow || title || description) && (
                     <div className="flex flex-col items-center justify-center mb-12 lg:mb-16 space-y-4">

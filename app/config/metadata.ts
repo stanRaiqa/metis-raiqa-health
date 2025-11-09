@@ -29,20 +29,20 @@ const baseMetadata: Metadata = {
 export const pageMetadata: Record<string, Metadata> = {
   // Home page
   home: {
-    title: 'Book a GP Online | RaiqaHealth Telehealth Australia',
-    description: 'RaiqaHealth offers digital healthcare services across Australia. From online GP consultations to instant bookings, get expert care from bustling city to remote areas.',
-    keywords: 'healthcare marketplace Australia, medical marketplace platform, healthcare practitioner marketplace, doctor booking platform',
+    title: 'Metis - Medical Weight Loss, Made Simple | Doctor-Led Care from $269/month',
+    description: 'Personalized medical weight loss treatment with doctor-led care, prescription medication delivery, and ongoing support from licensed Australian doctors. Start your transformation from $269/month. No diets. No confusion. Just real results.',
+    keywords: 'medical weight loss Australia, doctor prescribed weight loss, weight loss medication Australia, online weight loss doctor, prescription weight loss treatment, medical weight loss program, doctor supervised weight loss, Metis weight loss, telehealth weight loss, weight management program Australia, GLP-1 medication Australia, doctor led weight loss',
     openGraph: {
-      title: 'Book a GP Online | RaiqaHealth Telehealth Australia',
-      description: 'RaiqaHealth offers digital healthcare services across Australia. From online GP consultations to instant bookings, get expert care from bustling city to remote areas.',
+      title: 'Metis - Medical Weight Loss Made Simple | From $269/month',
+      description: 'Doctor-led medical weight loss with personalized treatment plans, prescription medication (if eligible), home delivery, and ongoing support. Transform your health with science-backed care across Australia.',
       url: 'https://raiqa.health',
-      siteName: 'Raiqa Health',
+      siteName: 'Metis by Raiqa Health',
       images: [
         {
           url: 'https://raiqa.health/og-image.png',
           width: 1200,
           height: 630,
-          alt: 'Raiqa Health | AI at the heart of the healthcare',
+          alt: 'Metis - Medical Weight Loss, Made Simple | Doctor-Led Care',
         },
       ],
       locale: 'en_AU',
@@ -50,8 +50,8 @@ export const pageMetadata: Record<string, Metadata> = {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Raiqa Health - Healthcare Marketplace Platform for Australian Practitioners & Patients',
-      description: 'Join Australia\'s leading healthcare marketplace platform. Healthcare practitioners can list their services and patients can book appointments instantly.',
+      title: 'Metis - Medical Weight Loss Made Simple | Doctor-Led Care',
+      description: 'Personalized treatment, doctor-led care, and real results starting at $269/month. No diets. No confusion. Just medical care designed around you with licensed Australian doctors.',
       images: ['https://raiqa.health/og-image.png'],
     },
   },

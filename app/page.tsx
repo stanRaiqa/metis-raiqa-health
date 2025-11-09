@@ -106,8 +106,8 @@ const HomeAboutUs = dynamic(
   { loading: () => <SectionLoader />, ssr: false }
 );
 
-const HomeWhatWeTreat = dynamic(
-  () => import('./components/HomeWhatWeTreat'),
+const MetisBrandVideo = dynamic(
+  () => import('./components/MetisBrandVideo'),
   { loading: () => <SectionLoader />, ssr: false }
 );
 
@@ -380,7 +380,7 @@ export default async function HomePage() {
         <HomeOurServices />
         <HomeAboutUs />
         <HomeHowItWorks />
-        <HomeWhatWeTreat />
+        <MetisBrandVideo />
         <SubscriptionPlans/>
         <HomeContinuousCare/>
         <HomeClinicalInfo/>

@@ -24,27 +24,33 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     id: 0,
-    question: "Personalized wellness plans",
+    question: "What's included in the $269 monthly plan?",
     answer:
-      "Our expert team creates customized health and wellness programs tailored to your unique goals, lifestyle, and needs. Get comprehensive support from certified professionals.",
+      "Everything you need: your doctor consultation, prescription medication (if eligible), home delivery, and unlimited expert support. No hidden fees or surprise charges.",
   },
   {
     id: 1,
-    question: "Cutting-edge technology",
+    question: "How fast will I see results?",
     answer:
-      "We leverage the latest health technology and evidence-based practices to deliver effective, modern solutions for your wellness journey with real-time tracking and insights.",
+      "Most patients notice visible changes within 2–3 months, depending on their goals and adherence to the plan. Remember, sustainable weight loss is about long-term health, not quick fixes.",
   },
   {
     id: 2,
-    question: "Expert team",
+    question: "Is medical weight loss safe?",
     answer:
-      "Work with certified health professionals, nutritionists, and wellness coaches who bring years of experience in holistic health and sustainable lifestyle changes.",
+      "Yes. All treatments are prescribed by licensed Australian doctors after a full health assessment. Your progress is monitored monthly, and your plan is adjusted as needed to ensure safety and effectiveness.",
   },
   {
     id: 3,
-    question: "Community-driven",
+    question: "Do I need to visit a clinic?",
     answer:
-      "Join a supportive community of like-minded individuals on their wellness journey. Share experiences, get motivated, and celebrate milestones together.",
+      "No. Everything happens online, from your consultation to prescriptions and monthly reviews. Your medication is delivered directly to your door.",
+  },
+  {
+    id: 4,
+    question: "Can I access a dietitian or psychologist?",
+    answer:
+      "Yes. If your doctor feels it would help your journey, they'll connect you with trusted specialists from our network for nutritional and behavioral support.",
   },
 ];
 
@@ -65,7 +71,7 @@ const FAQAccordion = ({ faq, index }: { faq: FAQItem; index: number }) => {
         aria-expanded={isOpen}
       >
         {/* Number */}
-        <span className="text-brand-steel font-body text-lg flex-shrink-0 w-16 lg:w-20">
+        <span className="text-brand-steel hidden sm:block font-body text-lg flex-shrink-0 w-16 lg:w-20">
           {String(faq.id + 1).padStart(2, "0")}.
         </span>
 
@@ -95,7 +101,7 @@ const FAQAccordion = ({ faq, index }: { faq: FAQItem; index: number }) => {
             transition={{ duration: 0.3, ease: [0.42, 0, 0.58, 1] }}
             className="overflow-hidden"
           >
-             <div className="pb-8 pl-16 lg:pl-20 pr-16 lg:pr-20">
+             <div className="pb-8 sm:pl-16 lg:pl-20 pr-16 lg:pr-20">
                <Body1 className="text-brand-steel leading-relaxed text-left">
                  {faq.answer}
                </Body1>
@@ -109,7 +115,7 @@ const FAQAccordion = ({ faq, index }: { faq: FAQItem; index: number }) => {
 
 export default function HomeFAQs() {
   return (
-    <section className="relative bg-white py-16 lg:py-24">
+    <section className="relative bg-white py-16 lg:py-24" id="faqs">
       <div className="max-w-[1280px] mx-auto px-8">
          {/* Section Header */}
          <motion.div
@@ -121,7 +127,7 @@ export default function HomeFAQs() {
          >
            {/* Subtitle */}
            <p className="font-body text-base text-brand-forest italic">
-             - Got questions?
+             - Got Questions?
            </p>
 
            {/* Main Heading */}
@@ -131,8 +137,7 @@ export default function HomeFAQs() {
 
            {/* Description */}
            <Body1 className="text-brand-steel max-w-2xl mx-auto">
-             Find answers to common questions about our wellness programs,
-             services, and how we can help you achieve your health goals.
+             Find answers to common questions about our doctor-led weight management program and how Metis can help you reach lasting, healthy results.
            </Body1>
          </motion.div>
 
