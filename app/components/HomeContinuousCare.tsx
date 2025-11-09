@@ -10,7 +10,7 @@ import { PrimaryButton } from "./common/buttons";
 /**
  * HomeContinuousCare Component
  * Displays continuous care and support features in card format
- * 
+ *
  * Features:
  * - Card-based layout with icons
  * - Different background colors for visual interest
@@ -36,39 +36,39 @@ export default function HomeContinuousCare() {
     {
       id: "expert-access",
       icon: <MessageSquare className="w-8 h-8" />,
-      title: "Unlimited expert access",
-      description: "Chat anytime with our care team.",
+      title: "Unlimited Expert Access",
+      description: "Chat anytime with your care team, nurses, and health coaches who listen.",
       bgColor: "bg-[#FFF4E6]",
-      buttonText: "Get Started Now",
-      buttonLink: "/get-started"
+      buttonText: "Get Started Now →",
+      buttonLink: "/get-started",
     },
     {
       id: "doctor-reviews",
       icon: <UserCheck className="w-8 h-8" />,
-      title: "Doctor-led reviews",
-      description: "Monthly check-ins to track your progress.",
+      title: "Doctor-Led Reviews",
+      description: "Your progress matters. Every month, your doctor checks in to adjust your plan and ensure it's working for you.",
       bgColor: "bg-[#E3F2FD]",
-      buttonText: "Get Started Now",
-      buttonLink: "/get-started"
+      buttonText: "Get Started Now →",
+      buttonLink: "/get-started",
     },
     {
       id: "specialist-access",
       icon: <Users className="w-8 h-8" />,
-      title: "Dietitian & psychologist access",
-      description: "If your doctor feels it's needed, you'll get referrals for nutritional and behavioral support.",
+      title: "Dietitian & Psychologist Support",
+      description: "Based on your doctor's evaluation, you'll receive coordinated care from licensed dietitians and behavioral health experts.",
       bgColor: "bg-[#F3E5F5]",
-      buttonText: "Get Started Now",
-      buttonLink: "/get-started"
+      buttonText: "Get Started Now →",
+      buttonLink: "/get-started",
     },
     {
       id: "safe-care",
       icon: <Shield className="w-8 h-8" />,
-      title: "Safe, ongoing care",
-      description: "Every refill is re-evaluated for your safety and progress.",
+      title: "Safe, Ongoing Care",
+      description: "Each refill is reviewed for safety and effectiveness, because long-term health needs long-term attention.",
       bgColor: "bg-[#E8F5E9]",
-      buttonText: "Get Started Now",
-      buttonLink: "/get-started"
-    }
+      buttonText: "Get Started Now →",
+      buttonLink: "/get-started",
+    },
   ];
 
   return (
@@ -86,7 +86,7 @@ export default function HomeContinuousCare() {
             Your Wellness Journey
           </p>
           <Header2 className="text-brand-dark !font-medium !leading-tight">
-            Continuous Care & Support
+            Care that doesn’t stop at the prescription.
           </Header2>
         </motion.div>
 
@@ -114,9 +114,7 @@ export default function HomeContinuousCare() {
                   <Header5 className="text-brand-dark !font-medium mb-3">
                     {card.title}
                   </Header5>
-                  <Body2 className="text-brand-steel">
-                    {card.description}
-                  </Body2>
+                  <Body2 className="text-brand-steel">{card.description}</Body2>
                 </div>
 
                 {/* CTA Button */}
@@ -126,7 +124,9 @@ export default function HomeContinuousCare() {
                     className="inline-flex items-center gap-2 text-brand-dark font-semibold hover:gap-3 transition-all group"
                   >
                     <span>{card.buttonText}</span>
-                    <span className="text-xl transition-transform group-hover:translate-x-1">→</span>
+                    <span className="text-xl transition-transform group-hover:translate-x-1">
+                      →
+                    </span>
                   </button>
                 </div>
               </div>
@@ -137,4 +137,3 @@ export default function HomeContinuousCare() {
     </section>
   );
 }
-

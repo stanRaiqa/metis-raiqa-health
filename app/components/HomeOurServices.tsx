@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Users, Shield, Pill, UtensilsCrossed, Award, BadgeCheck, HeartHandshake, Video, FileCheck, MessageSquare } from 'lucide-react';
+import { Users, Shield, Pill, UtensilsCrossed, Award, HeartHandshake } from 'lucide-react';
 import { Header2, Body1, Header3 } from './common/typography';
 import BodyXXL from './common/typography/BodyXXL';
 
@@ -26,7 +26,7 @@ interface ServiceCard {
 const services: ServiceCard[] = [
     {
         id: 1,
-        title: '1:1 lifestyle coaching',
+        title: '1 on 1 lifestyle coaching',
         icon: <Users className="w-8 h-8" />,
         description: 'Personalized coaching for your health goals'
     },
@@ -56,33 +56,9 @@ const services: ServiceCard[] = [
     },
     {
         id: 6,
-        title: '30-day money back guarantee',
-        icon: <BadgeCheck className="w-8 h-8" />,
-        description: 'Risk-free commitment to your health journey'
-    },
-    {
-        id: 7,
         title: 'Supportive community',
         icon: <HeartHandshake className="w-8 h-8" />,
         description: 'Connect with others on the same journey'
-    },
-    {
-        id: 8,
-        title: 'Virtual clinical care',
-        icon: <Video className="w-8 h-8" />,
-        description: 'Healthcare from the comfort of your home'
-    },
-    {
-        id: 9,
-        title: 'Safe, evidence-based care',
-        icon: <FileCheck className="w-8 h-8" />,
-        description: 'Trusted methods backed by research'
-    },
-    {
-        id: 10,
-        title: 'Support via app, text & calls',
-        icon: <MessageSquare className="w-8 h-8" />,
-        description: 'Multiple ways to stay connected with care'
     }
 ];
 
@@ -91,7 +67,7 @@ export default function HomeOurServices() {
     const duplicatedServices = [...services, ...services, ...services];
 
     return (
-        <section className="relative bg-brand-terracotta mx-4 rounded-lg overflow-hidden">
+        <section className="relative bg-brand-terracotta mx-2 sm:mx-4 py-2 sm:py-0 rounded-lg overflow-hidden">
             
 
             {/* Infinite Scroll Container */}

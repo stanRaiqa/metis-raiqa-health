@@ -33,68 +33,68 @@ const steps: Step[] = [
     id: 1,
     title: 'Online Doctor Consultation',
     subtitle: 'Step 1',
-    description: 'Start with some quiz and then an online doctor consultation. You\'ll discuss your weight history, health profile, and goals.',
+    description: 'Start with a quick quiz, then meet your doctor online. You\'ll discuss your weight history, health profile, and goals. Your doctor will assess if medical treatment is right for you.',
     benefits: [
-      'Quick online assessment',
-      'Private virtual consultation',
-      'Personalized health evaluation',
+      'Quick online health quiz',
+      'Private video consultation',
+      'Personalized assessment',
       'Expert medical guidance'
     ],
     imageSrc: '/images/doctor.jpg',
     imageAlt: 'Online Doctor Consultation',
     icon: <FileText className="w-6 h-6" />,
-    buttonText: 'Start Consultation',
+    buttonText: 'Start Consultation →',
     buttonLink: '/get-started'
   },
   {
     id: 2,
-    title: 'Personalized Plan',
+    title: 'Personalized Treatment Plan',
     subtitle: 'Step 2',
-    description: 'Once approved, your doctor creates a personalized plan including your medication, dosage, and health recommendations.',
+    description: 'If approved, your doctor designs a plan just for you, including prescribed medication (if suitable), dosage, and tailored lifestyle guidance.',
     benefits: [
-      'Customized treatment plan',
-      'Tailored medication dosage',
-      'Lifestyle recommendations',
-      'Ongoing adjustments'
+      'Customized medical plan',
+      'Adjusted dosage & care recommendations',
+      'Lifestyle and nutrition guidance',
+      'Ongoing medical review'
     ],
     imageSrc: '/images/HairLossTreatment-1.jpg',
     imageAlt: 'Personalized Treatment Plan',
     icon: <User className="w-6 h-6" />,
-    buttonText: 'Learn More',
+    buttonText: 'Learn More →',
     buttonLink: '/services'
   },
   {
     id: 3,
-    title: 'Medication Delivered to Your Door',
-    subtitle: 'Step 3 (if prescribed)',
-    description: 'Your prescribed medication is shipped directly and discreetly to your home. Metro areas: Same-day delivery. Regional areas: 1–3 days. No pharmacy visits, no waiting.',
+    title: 'Medication Delivered to Your Door (If Prescribed)',
+    subtitle: 'Step 3',
+    description: 'Your prescribed medication ships directly and discreetly to your home. No pharmacy visits, no waiting, no hidden fees.',
     benefits: [
-      'Same-day delivery in metro areas',
-      '1-3 days for regional delivery',
+      'Metro areas: Same-day delivery',
+      'Regional areas: 1–3 days',
       'Discreet packaging',
-      'Shipping included in plan'
+      'Delivery included in your plan'
     ],
     imageSrc: '/images/HairLossTreatment-2.jpg',
     imageAlt: 'Home Delivery',
     icon: <Package className="w-6 h-6" />,
-    buttonText: 'View Plans',
+    buttonText: 'View Plans →',
     buttonLink: '/pricing'
   },
   {
     id: 4,
     title: 'Ongoing Support & Monthly Refills',
     subtitle: 'Step 4',
-    description: 'You\'ll have unlimited access to our weight loss support team for questions, progress tracking, and advice. Every month, you\'ll have a medical review and get your next refill delivered right to you.',
+    description: 'Your journey doesn\'t stop at prescription. You\'ll have unlimited access to your care team for progress tracking, medical reviews, and monthly plan updates.',
     benefits: [
-      'Unlimited support access',
-      'Progress tracking',
-      'Monthly medical reviews',
-      'Automatic refills'
+      'Unlimited expert support',
+      'Monthly doctor reviews',
+      'Progress tracking via app/text',
+      'Refills delivered automatically after review'
     ],
     imageSrc: '/images/Skin_Care.jpg',
     imageAlt: 'Ongoing Support',
     icon: <HeadphonesIcon className="w-6 h-6" />,
-    buttonText: 'Get Started',
+    buttonText: 'Get Started →',
     buttonLink: '/get-started'
   }
 ];
@@ -104,7 +104,7 @@ export default function HomeHowItWorks() {
     <section className="relative bg-brand-light py-16 lg:py-32" id="how-it-works">
       <div className="max-w-[1280px] mx-auto px-8">
         {/* Header */}
-        <div className="flex items-center justify-between mb-12 lg:mb-16 space-y-4">
+        <div className="flex flex-col sm:flex-row items-center justify-between mb-12 lg:mb-16 space-y-4">
           
 
           <motion.div
@@ -120,9 +120,9 @@ export default function HomeHowItWorks() {
             viewport={{ once: true }}
             className="font-body text-base text-brand-forest italic"
           >
-            Simple & Effective
+            - Simple. Effective. Doctor-Led.
           </motion.p>
-            <Header2 className="text-brand-dark text-center !font-medium">How It Works</Header2>
+            <Header2 className="text-brand-dark text-left !font-medium">How Metis Works</Header2>
           </motion.div>
 
           <motion.div
@@ -131,8 +131,8 @@ export default function HomeHowItWorks() {
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <Body2 className="text-brand-steel max-w-2xl mx-auto text-left">
-            Get started with simple, doctor-guided care that&apos;s completely private, convenient, and fully online. Our trusted medical professionals provide personalized treatment plans designed around your unique needs—all from the comfort of your home.
+            <Body2 className=" max-w-2xl mx-auto text-left">
+            Your journey is designed around you. No clinics, no confusion, just real medical care from the comfort of home.
             </Body2>
           </motion.div>
         </div>
@@ -167,13 +167,13 @@ export default function HomeHowItWorks() {
                       </div>
                     </div>
 
-                    <Body2 className="text-brand-steel mb-6">{step.description}</Body2>
+                    <Body2 className=" mb-6">{step.description}</Body2>
 
                     <div className="space-y-3 mb-8">
                       {step.benefits.map((benefit, idx) => (
                         <div key={idx} className="flex items-start gap-3">
                           <CheckCircle className="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" />
-                          <Body2 className="text-brand-steel">{benefit}</Body2>
+                          <Body2 className="">{benefit}</Body2>
                         </div>
                       ))}
                     </div>
@@ -215,7 +215,7 @@ export default function HomeHowItWorks() {
                   {/* Did You Know Card */}
                   <div className="bg-green-800/70 absolute bottom-6 left-6 right-6 backdrop-blur-sm rounded-2xl p-6 border border-green-700/30">
                     <Body1 className="text-white/90  leading-relaxed mb-3 ">
-                      80% of weight loss is linked to habits, not willpower.
+                      Over 80% of weight loss success comes from consistent medical guidance, not just willpower.
                     </Body1>
                     <p className="text-white/70 text-base ">
                       Did you know?

@@ -74,7 +74,7 @@ export default function HeroSection({
     const router = useRouter();
     return (
         <section 
-            className="relative min-h-[calc(100vh-80px)] !max-h-[1200px] mx-4 mb-4 rounded-2xl flex items-end overflow-hidden bg-cover bg-center bg-no-repeat"
+            className="relative min-h-[calc(100vh-80px)] !max-h-[1200px] mx-2 sm:mx-4 mb-4 rounded-lg md:rounded-2xl flex items-end overflow-hidden bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${imageSrc})` }}
         >
             {/* Gradient Overlay for better text readability */}
@@ -93,7 +93,7 @@ export default function HeroSection({
             )}
 
             {/* Container */}
-            <div className="relative z-10 w-full px-6 sm:px-10 lg:px-16 pb-12 sm:pb-16 lg:pb-4">
+            <div className="relative z-10 w-full px-6 sm:px-10 lg:px-16 pb-4 sm:pb-16 lg:pb-4">
                 <div className="max-w-[1280px] mx-auto">
                     <div className="grid grid-cols-1  gap-0 items-end">
                         {/* Left Content */}
@@ -101,7 +101,7 @@ export default function HeroSection({
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6 }}
-                            className="lg:col-span-7 space-y-6"
+                            className="lg:col-span-7 sm:space-y-6"
                         >
                             {/* Small Description Above Title */}
                             <p className={`text-base sm:text-lg leading-relaxed ${descriptionClassName}`}>

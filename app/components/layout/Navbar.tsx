@@ -7,6 +7,7 @@ import { Menu, X, ChevronDown, ArrowRightIcon } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { PrimaryButton } from '../common/buttons';
 import { useRouter } from 'next/navigation';
+import BMICalculatorModal from '../common/BMICalculatorModal';
 
 /**
  * Responsive Navbar Component
@@ -27,16 +28,16 @@ interface NavLink {
 }
 
 const navLinks: NavLink[] = [
-  { label: 'How it works', href: '#how-it-works' },
-  { label: 'Calculate BMI', href: '/' },
-  { label: 'Pricing ', href: '#subscription' },
+  { label: 'How it works', href: '/#how-it-works' },
+  { label: 'Calculate BMI', href: '#', hasDropdown: true }, // Special handling for BMI calculator
+  { label: 'Pricing ', href: '/#subscription' },
   { label: 'Contact us', href: '/contact' },
- 
 ];
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isBMIModalOpen, setIsBMIModalOpen] = useState(false);
   const router = useRouter();
   // Handle scroll effect
   useEffect(() => {
@@ -69,11 +70,19 @@ export default function Navbar() {
     setIsMobileMenuOpen(false);
   };
 
+  const handleNavLinkClick = (link: NavLink, e: React.MouseEvent) => {
+    if (link.label === 'Calculate BMI') {
+      e.preventDefault();
+      setIsBMIModalOpen(true);
+      closeMobileMenu();
+    }
+  };
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-fixed transition-all bg-brand-light  duration-base `}
     >
-      <div className='my-2 mx-4 shadow-sm rounded-md bg-brand-primary'>
+      <div className='my-2 mx-2 sm:mx-4 shadow-sm rounded-md bg-brand-primary'>
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -99,6 +108,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
+                onClick={(e) => handleNavLinkClick(link, e)}
                 className="font-body text-base  text-white hover:text-brand-ice transition-colors relative group"
               >
                 {link.label}
@@ -163,7 +173,12 @@ export default function Navbar() {
                     >
                       <Link
                         href={link.href}
-                        onClick={closeMobileMenu}
+                        onClick={(e) => {
+                          handleNavLinkClick(link, e);
+                          if (link.label !== 'Calculate BMI') {
+                            closeMobileMenu();
+                          }
+                        }}
                         className="block px-4 py-3 rounded-lg font-body text-base font-medium text-brand-dark hover:bg-brand-neutral-light hover:text-brand-primary transition-colors"
                       >
                         {link.label}
@@ -197,6 +212,12 @@ export default function Navbar() {
         )}
       </AnimatePresence>
       </div>
+
+      {/* BMI Calculator Modal */}
+      <BMICalculatorModal 
+        isOpen={isBMIModalOpen} 
+        onClose={() => setIsBMIModalOpen(false)} 
+      />
     </nav>
   );
 }

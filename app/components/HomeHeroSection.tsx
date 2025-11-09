@@ -58,8 +58,8 @@ const treatmentCards: TreatmentCard[] = [
 
 
 export default function HomeHeroSection({
-    title = "Smarter Weight Management, backed by Practitioners",
-    subtitle = "A secure, high-quality video platform built for modern healthcare. Book a consultation with a doctor today.",
+    title = "Medical Weight Loss, Made Simple.",
+    subtitle = "Personalized treatment, doctor-led care, and real results, starting at $269/month. No diets. No confusion. Just a medical approach designed around you.",
     ctaTextPrimary = "Get Started",
     ctaTextSecondary = "View Plans",
     imageSrc = "/images/Metis_Hero_image.jpg",

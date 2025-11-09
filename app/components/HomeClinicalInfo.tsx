@@ -26,25 +26,25 @@ const testimonials: Testimonial[] = [
         id: 1,
         name: "Emily R.",
         location: "Sydney, NSW",
-        testimonial: "Raiqa Health team really helped me reclaim my energy. I've never felt better than before!"
+        testimonial: "Metis helped me break the cycle of fad diets. I finally feel like my health is in my hands, and it's working."
     },
     {
         id: 2,
         name: "James K.",
         location: "Melbourne, VIC",
-        testimonial: "Raiqa Health programs are so easy to follow, the results are incredible. A step toward better health!"
+        testimonial: "The plan was simple, the support was real, and the results… surprising. I feel lighter, not just on the scale, but in life."
     },
     {
         id: 3,
         name: "Sarah M.",
         location: "Brisbane, QLD",
-        testimonial: "The personalized approach made all the difference. My wellness journey has been truly transformative with their support."
+        testimonial: "For the first time, I wasn't doing it alone. My doctor, my plan, my progress, all in sync."
     },
     {
         id: 4,
         name: "David L.",
         location: "Perth, WA",
-        testimonial: "Professional, caring, and results-driven. The team at Raiqa Health helped me achieve my health goals faster than I expected."
+        testimonial: "Metis isn't just a program. It's a partnership. Every check-in, every tweak, it showed they actually care."
     }
 ];
 
@@ -117,7 +117,7 @@ export default function HomeClinicalInfo() {
                         viewport={{ once: true }}
                         className="font-body text-base text-brand-forest italic"
                     >
-                        - More wellness insights
+                        - Real People. Real Change.
                     </motion.p>
 
                     {/* Right - Main Heading */}
@@ -129,7 +129,7 @@ export default function HomeClinicalInfo() {
                         className="lg:text-right"
                     >
                         <Header2 className="text-brand-dark !font-medium !leading-tight">
-                            Real people, real results.
+                            Stories that remind us why science-backed care matters.
                         </Header2>
                     </motion.div>
                 </div>
@@ -159,7 +159,7 @@ export default function HomeClinicalInfo() {
                         viewport={{ once: true }}
                         className="font-heading text-lg text-brand-dark"
                     >
-                        Join the modern wellness community today
+                        Join a wellness movement built on science, not shortcuts.
                     </motion.p>
 
                     {/* Navigation Arrows */}

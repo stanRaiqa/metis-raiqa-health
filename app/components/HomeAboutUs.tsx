@@ -18,9 +18,9 @@ export default function HomeAboutUs() {
 
   const features = [
     {
-      title: "Personalized plans",
+      title: "Personalized Medical Plans",
       description:
-        "Access evidence-based wellness programs & health resources tailored to your unique goals and lifestyle.",
+        "Get a treatment plan tailored uniquely for your body, combining prescription medication (if eligible), lifestyle recommendations, and continuous medical monitoring. No generic templates. No guesswork.",
       icon: (
         <svg
           className="w-5 h-5"
@@ -46,9 +46,9 @@ export default function HomeAboutUs() {
       ),
     },
     {
-      title: "Expert guidance",
+      title: "Expert, Ongoing Guidance",
       description:
-        "Connect with certified health professionals and wellness experts who guide you every step of your journey.",
+        "Stay connected with your dedicated care team, doctors, dietitians, and weight-loss specialists, who review your progress monthly and adjust your plan as your body evolves.",
       icon: (
         <svg
           className="w-5 h-5"
@@ -112,21 +112,26 @@ export default function HomeAboutUs() {
             {/* Subtitle */}
             <div className="space-y-2">
               <p className="font-body text-base text-brand-forest italic">
-                - Your wellness, our expertise.
+                - Metis
               </p>
 
               {/* Main Heading */}
               <Header2 className="text-brand-dark !font-medium !leading-tight">
-                Pure wellness, we work with top professionals
+              Your Health, Our Expertise 
               </Header2>
 
+              {/* Description */}
+              <Body1 className="text-brand-steel pt-4 leading-relaxed">
+              Real care, led by doctors. Every Metis plan is designed and supervised by licensed Australian doctors who understand that weight loss is medical, not moral. 
+              </Body1>
+
               {/* CTA Link */}
-              <div className="pt-2">
+              <div className="pt-6">
                 <button
                   onClick={() => router.push("/get-started")}
                   className="group inline-flex items-center gap-3 text-brand-dark text-base font-medium border-b-2 border-brand-dark pb-1 hover:border-brand-mint hover:text-brand-mint transition-colors duration-300"
                 >
-                  Be one of them now
+                  Start Your Doctor-Led Journey Today 
                   <motion.svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -158,7 +163,7 @@ export default function HomeAboutUs() {
                 >
                   {/* Icon Circle */}
                   <div 
-                    className="w-10 h-10 rounded-full border border-brand-neutral-dark flex items-center justify-center text-brand-dark group-hover:bg-brand-primary group-hover:text-white group-hover:scale-[1.2] group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300 ease-out will-change-transform"
+                    className={`w-10 h-10 rounded-full border border-brand-neutral-dark flex items-center justify-center text-brand-dark group-hover:bg-brand-primary group-hover:text-white group-hover:scale-[1.2] group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300 ease-out will-change-transform ${index===0?"lg:absolute":""}`}
                   >
                     {feature.icon}
                   </div>
