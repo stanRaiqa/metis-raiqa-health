@@ -9,8 +9,9 @@ Allow: /how-it-works
 Allow: /contact
 Allow: /services
 Allow: /blog
-Allow: /terms
 Allow: /privacy-policy
+Allow: /terms-conditions
+Allow: /shipping-returns
 Allow: /cookie-policy
 Allow: /*.css$
 Allow: /*.js$

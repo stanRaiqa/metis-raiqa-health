@@ -122,6 +122,9 @@ export default function Footer() {
               <Link href="/terms-conditions" className="hover:underline">
                 <Body3 className="text-white/80">Terms and Conditions</Body3>
               </Link>
+              <Link href="/shipping-returns" className="hover:underline">
+                <Body3 className="text-white/80">Shipping & Returns</Body3>
+              </Link>
             </div>
           </div>
 
