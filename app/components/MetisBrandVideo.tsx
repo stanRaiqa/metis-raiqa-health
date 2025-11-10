@@ -1,10 +1,12 @@
 "use client";
 
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import { Volume2, VolumeX } from "lucide-react";
 import { Header2, Body1 } from "./common/typography";
 import { PrimaryButton } from "./common/buttons";
+import { bookingBaseUrl } from "../enum";
 
 /**
  * MetisBrandVideo Component
@@ -16,6 +18,46 @@ import { PrimaryButton } from "./common/buttons";
 
 export default function MetisBrandVideo() {
   const router = useRouter();
+  const playerRef = useRef<any>(null);
+  const [isMuted, setIsMuted] = useState(true);
+  const [isPlayerReady, setIsPlayerReady] = useState(false);
+
+  useEffect(() => {
+    // Load YouTube IFrame API
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    const firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
+
+    // Create player when API is ready
+    (window as any).onYouTubeIframeAPIReady = () => {
+      playerRef.current = new (window as any).YT.Player('metis-youtube-player', {
+        events: {
+          onReady: () => {
+            setIsPlayerReady(true);
+          },
+        },
+      });
+    };
+
+    return () => {
+      if (playerRef.current) {
+        playerRef.current.destroy();
+      }
+    };
+  }, []);
+
+  const toggleMute = () => {
+    if (playerRef.current && isPlayerReady) {
+      if (isMuted) {
+        playerRef.current.unMute();
+        setIsMuted(false);
+      } else {
+        playerRef.current.mute();
+        setIsMuted(true);
+      }
+    }
+  };
 
   return (
     <section className="relative bg-brand-light py-16 lg:py-32 overflow-hidden border-t border-brand-neutral-light">
@@ -29,17 +71,32 @@ export default function MetisBrandVideo() {
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="relative w-full aspect-[3/4] max-h-[600px] rounded-3xl overflow-hidden shadow-xl flex items-center justify-center bg-brand-primary-dark">
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="w-full h-auto object-cover"
+            <div className="relative w-full aspect-video rounded-3xl overflow-hidden shadow-xl">
+              <iframe
+                id="metis-youtube-player"
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/hajhm1sLFO4?autoplay=1&mute=1&controls=0&loop=1&playlist=hajhm1sLFO4&modestbranding=1&showinfo=0&rel=0&enablejsapi=1"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                className="absolute top-0 left-0 w-full h-full"
+              />
+              
+              {/* Audio Control Button */}
+              <button
+                onClick={toggleMute}
+                className="absolute bottom-4 right-4 w-12 h-12 rounded-full bg-black/10 hover:bg-brand-primary flex items-center justify-center text-white shadow-lg transition-all duration-300 hover:scale-110 z-10"
+                aria-label={isMuted ? "Unmute video" : "Mute video"}
               >
-                <source src="/videos/Metis BrandVideo.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+                {isMuted ? (
+                  <VolumeX className="w-5 h-5" />
+                ) : (
+                  <Volume2 className="w-5 h-5" />
+                )}
+              </button>
             </div>
           </motion.div>
           {/* Right - Content */}
@@ -100,7 +157,7 @@ export default function MetisBrandVideo() {
 
             {/* CTA Button */}
             <div className="pt-4">
-              <PrimaryButton onClick={() => router.push("/get-started")}>
+              <PrimaryButton href={bookingBaseUrl + "/form/metis/medical-weight-loss"}>
                 Start Your Journey
               </PrimaryButton>
             </div>

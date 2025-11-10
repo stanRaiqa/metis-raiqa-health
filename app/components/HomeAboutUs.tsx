@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Body1, Header2, Header4, Header5, Header6 } from "./common/typography";
+import { bookingBaseUrl } from "../enum";
+import Link from "next/link";
 
 /**
  * HomeAboutUs Component
@@ -91,7 +93,7 @@ export default function HomeAboutUs() {
           >
             <div className="relative w-full aspect-[3/4] max-h-[600px] rounded-3xl overflow-hidden shadow-xl">
               <Image
-                src="/images/Metis_Hero_image.jpg"
+                src="/images/YourHealthOurExpertise.webp"
                 alt="Wellness professionals team"
                 fill
                 className="object-cover"
@@ -127,8 +129,8 @@ export default function HomeAboutUs() {
 
               {/* CTA Link */}
               <div className="pt-6">
-                <button
-                  onClick={() => router.push("/get-started")}
+                <Link
+                  href={bookingBaseUrl + "/form/metis/medical-weight-loss"}
                   className="group inline-flex items-center gap-3 text-brand-dark text-base font-medium border-b-2 border-brand-dark pb-1 hover:border-brand-mint hover:text-brand-mint transition-colors duration-300"
                 >
                   Start Your Doctor-Led Journey Today 
@@ -147,7 +149,7 @@ export default function HomeAboutUs() {
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </motion.svg>
-                </button>
+                </Link>
               </div>
             </div>
             {/* Feature Cards */}
@@ -159,6 +161,7 @@ export default function HomeAboutUs() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.4 + index * 0.1 }}
                   viewport={{ once: true }}
+                  onClick={() => router.push(bookingBaseUrl + "/form/metis/medical-weight-loss")}
                   className="bg-brand-neutral-light border border-brand-neutral-dark p-6 rounded-2xl space-y-3 flex flex-col justify-between items-end cursor-pointer group hover:shadow-lg transition-shadow duration-300"
                 >
                   {/* Icon Circle */}

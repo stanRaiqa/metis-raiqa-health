@@ -5,9 +5,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Facebook, Instagram, Youtube, Heart, YoutubeIcon } from 'lucide-react';
 import { Body2, Body3, Header6 } from '../common/typography';
+import BMICalculatorModal from '../common/BMICalculatorModal';
+import { bookingBaseUrl } from '@/app/enum';
 
 export default function Footer() {
   const [email, setEmail] = useState('');
+  const [isBMIModalOpen, setIsBMIModalOpen] = useState(false);
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
@@ -91,12 +94,15 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Header6 className="!font-medium text-white text-lg  mb-4">Programs</Header6>
             <div className="flex flex-col gap-2">
-              <Link href="/programs/medical-weightloss" className="hover:underline">
+              <Link href={bookingBaseUrl+"/form/metis/medical-weight-loss" }className="hover:underline">
                 <Body3 className="text-white/80">Medical Weightloss</Body3>
               </Link>
-              <Link href="/tools/bmi-calculator" className="hover:underline">
+              <button 
+                onClick={() => setIsBMIModalOpen(true)} 
+                className="hover:underline text-left"
+              >
                 <Body3 className="text-white/80">BMI Calculator</Body3>
-              </Link>
+              </button>
             </div>
           </div>
 
@@ -238,6 +244,12 @@ export default function Footer() {
       <noscript>
         <Image height="1" width="1" style={{ display: 'none' }} alt="" src="https://px.ads.linkedin.com/collect/?pid=7558644&fmt=gif" />
       </noscript>
+
+      {/* BMI Calculator Modal */}
+      <BMICalculatorModal
+        isOpen={isBMIModalOpen}
+        onClose={() => setIsBMIModalOpen(false)}
+      />
     </footer>
   );
 }

@@ -131,62 +131,84 @@ const HomeContinuousCare = dynamic(
   { loading: () => <SectionLoader />, ssr: false }
 );
 
-// Generate location-specific metadata with comprehensive keywords
+// Generate location-specific metadata with comprehensive keywords for medical weight loss
 export const metadata: Metadata = {
   ...getPageMetadata('home'),
   keywords: [
-    'healthcare marketplace Australia',
-    'healthcare platform like HotDoc',
-    'medical marketplace platform',
-    'healthcare practitioner marketplace',
-    'doctor booking platform',
-    'healthcare service marketplace',
-    'medical practitioner marketplace',
-    'healthcare booking marketplace',
-    'healthcare marketplace platform',
-    'medical service marketplace',
-    ...australianLocations.majorCities.map(city => `healthcare marketplace ${city}`),
-    ...Object.values(australianLocations.regionalTowns).flat().map(town => `healthcare marketplace ${town}`),
-    ...Object.values(australianLocations.regions).flat().map(region => `healthcare marketplace ${region}`),
-    'healthcare practitioner platform',
-    'medical service platform',
-    'healthcare marketplace like Airtasker',
-    'healthcare booking like HotDoc',
-    'online medical marketplace',
-    'healthcare service platform',
-    'medical practitioner platform',
-    'healthcare marketplace for practitioners',
-    'healthcare marketplace for patients'
+    'medical weight loss Australia',
+    'doctor prescribed weight loss',
+    'weight loss medication Australia',
+    'online weight loss doctor',
+    'prescription weight loss treatment',
+    'medical weight loss program',
+    'doctor supervised weight loss',
+    'Metis weight loss',
+    'telehealth weight loss',
+    'weight management program Australia',
+    'GLP-1 medication Australia',
+    'doctor led weight loss',
+    'weight loss prescription online',
+    'medical weight loss medication',
+    'weight loss doctor online Australia',
+    'obesity treatment Australia',
+    'medical weight management',
+    'weight loss telehealth',
+    'prescription weight loss pills Australia',
+    'doctor weight loss program',
+    ...australianLocations.majorCities.map(city => `medical weight loss ${city}`),
+    ...australianLocations.states.map(state => `weight loss doctor ${state}`),
+    ...australianLocations.majorCities.map(city => `weight loss medication ${city}`),
+    'weight loss treatment online',
+    'medical weight loss clinic',
+    'online weight loss consultation',
+    'weight loss doctor consultation',
+    'medical weight loss telehealth',
+    'weight loss program $269',
+    'affordable weight loss treatment',
+    'weight loss home delivery',
+    'weight loss medication delivery'
   ].join(', '),
   openGraph: {
     ...getPageMetadata('home').openGraph,
-    description: `Join Australia's leading healthcare marketplace platform. Healthcare practitioners can list their services and patients can book appointments instantly across ${australianLocations.majorCities.join(', ')} and regional areas. Similar to HotDoc and InstantScripts, but with a marketplace model like Airtasker.`,
+    description: `Transform your health with Metis by Raiqa Health. Doctor-led medical weight loss with personalized treatment plans, prescription medication (if eligible), home delivery, and ongoing support across ${australianLocations.majorCities.join(', ')} and regional Australia. Start your journey from $269/month.`,
   },
   twitter: {
     ...getPageMetadata('home').twitter,
-    description: `Join Australia's leading healthcare marketplace platform. Healthcare practitioners can list their services and patients can book appointments instantly across ${australianLocations.majorCities.join(', ')} and regional areas. Similar to HotDoc and InstantScripts, but with a marketplace model like Airtasker.`,
+    description: `Transform your health with Metis by Raiqa Health. Doctor-led medical weight loss with personalized treatment plans, prescription medication (if eligible), home delivery, and ongoing support across ${australianLocations.majorCities.join(', ')} and regional Australia. Start your journey from $269/month.`,
   },
 };
 
-// Enhanced structured data with analytics tracking integration
+// Enhanced structured data for medical weight loss
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Raiqa Health",
+  "@type": "MedicalWebPage",
+  "name": "Metis by Raiqa Health - Medical Weight Loss",
   "url": "https://raiqa.health",
+  "description": "Doctor-led medical weight loss program with personalized treatment plans, prescription medication (if eligible), and ongoing support from licensed Australian doctors.",
   "potentialAction": [
     {
-      "@type": "SearchAction",
-      "target": "https://raiqa.health/search?q={search_term_string}",
-      "query-input": "required name=search_term_string"
+      "@type": "ViewAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://raiqa.health/#how-it-works"
+      },
+      "name": "How It Works"
     },
     {
       "@type": "ViewAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://raiqa.health/practitioners"
+        "urlTemplate": "https://raiqa.health/#subscription"
       },
-      "name": "For Practitioners"
+      "name": "View Plans & Pricing"
+    },
+    {
+      "@type": "RegisterAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://raiqa.health/#get-started"
+      },
+      "name": "Start Your Journey"
     }
   ],
   "areaServed": {
@@ -241,13 +263,13 @@ const structuredData = {
   ]
 };
 
-// Enhanced marketplace business structured data with trackingSpecification
+// Enhanced medical weight loss business structured data
 const localBusinessData = {
   "@context": "https://schema.org",
-  "@type": ["MedicalBusiness", "Service"],
-  "name": "Raiqa Health",
+  "@type": ["MedicalBusiness", "MedicalOrganization"],
+  "name": "Metis by Raiqa Health",
   "image": "https://raiqa.health/logo.png",
-  "description": "Australia's leading healthcare marketplace platform connecting healthcare practitioners with patients. Similar to HotDoc and InstantScripts, but with a marketplace model like Airtasker.",
+  "description": "Doctor-led medical weight loss program providing personalized treatment plans, prescription medication (if eligible), home delivery, and ongoing support from licensed Australian doctors. Starting at $269/month.",
   "sameAs": [
     "https://facebook.com/raiqahealth",
     "https://twitter.com/raiqahealth",
@@ -282,56 +304,76 @@ const localBusinessData = {
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Healthcare Marketplace Services",
+    "name": "Medical Weight Loss Services",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
-          "@type": "Service",
-          "name": "Healthcare Practitioner Marketplace",
-          "description": "Join our marketplace to list your healthcare services and connect with patients across Australia"
+          "@type": "MedicalTherapy",
+          "name": "Medical Weight Loss Program",
+          "description": "Comprehensive medical weight loss program with doctor-led care, personalized treatment plans, and prescription medication (if eligible)",
+          "price": "269",
+          "priceCurrency": "AUD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "269",
+            "priceCurrency": "AUD",
+            "billingPeriod": "Month"
+          }
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Patient Booking Platform",
-          "description": "Book appointments with healthcare practitioners across Australia, including major cities, regional towns, and remote areas"
+          "name": "Online Doctor Consultation",
+          "description": "Private video consultation with licensed Australian doctors for medical weight loss assessment and treatment planning"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Healthcare Service Marketplace",
-          "description": "Find and book healthcare services from verified practitioners across Australia"
+          "name": "Medication Home Delivery",
+          "description": "Discreet home delivery of prescription weight loss medication with same-day delivery in metro areas and 1-3 days for regional areas"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Ongoing Support & Monthly Refills",
+          "description": "Unlimited expert support, monthly doctor reviews, progress tracking, and automatic refills after medical review"
         }
       }
     ]
   },
   "provider": {
-    "@type": "Organization",
-    "name": "Raiqa Health",
-    "description": "Healthcare marketplace platform connecting practitioners and patients across Australia"
+    "@type": "MedicalOrganization",
+    "name": "Metis by Raiqa Health",
+    "description": "Doctor-led medical weight loss program providing personalized care across Australia",
+    "medicalSpecialty": "Weight Management"
   },
   "audience": [
     {
-      "@type": "Audience",
-      "audienceType": "Healthcare Practitioners",
-      "description": "Medical professionals looking to list their services and connect with patients"
-    },
-    {
-      "@type": "Audience",
-      "audienceType": "Patients",
-      "description": "People seeking healthcare services and appointments across Australia"
+      "@type": "PatientsAudience",
+      "audienceType": "Medical Weight Loss Patients",
+      "description": "Individuals seeking doctor-supervised medical weight loss treatment with prescription medication and ongoing support",
+      "suggestedMinAge": 18
     }
   ],
   "serviceType": [
-    "Healthcare Marketplace",
-    "Medical Booking Platform",
-    "Practitioner Directory",
-    "Healthcare Service Platform"
+    "Medical Weight Loss",
+    "Weight Management Program",
+    "Telehealth Weight Loss",
+    "Prescription Weight Loss Treatment",
+    "Doctor-Led Weight Loss"
+  ],
+  "medicalSpecialty": [
+    "Weight Management",
+    "Obesity Medicine",
+    "Preventive Medicine",
+    "Endocrinology"
   ],
   "trackingSpecification": {
     "@type": "TrackingSpecification",

@@ -24,6 +24,7 @@ interface PrimaryButtonProps {
 export default function PrimaryButton({
   children,
   onClick,
+  href,
   type = 'button',
   disabled = false,
   className = '',
@@ -57,7 +58,20 @@ export default function PrimaryButton({
     ${className}
   `;
 
+  // If href is provided, render as a Link
+  if (href) {
+    return (
+      <Link
+        href={href}
+        className={baseClasses}
+        onClick={onClick as any}
+      >
+        {children}
+      </Link>
+    );
+  }
 
+  // Otherwise, render as a button
   return (
     <button
       type={type}

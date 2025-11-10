@@ -15,6 +15,7 @@ import {
   Subtitle2,
 } from "../common/typography";
 import { Check } from "lucide-react";
+import { bookingBaseUrl } from "@/app/enum";
 
 /**
  * Subscription Plans Component
@@ -109,7 +110,7 @@ export default function SubscriptionPlans() {
             {/* CTA Button */}
             <div className="pt-2">
               <PrimaryButton
-                onClick={() => router.push("/get-started")}
+                href={bookingBaseUrl + "/form/metis/medical-weight-loss"}
                 className="group"
               >
                 <span className="flex items-center gap-2">
@@ -132,7 +133,7 @@ export default function SubscriptionPlans() {
           >
             <div className="relative w-full aspect-[3/4] max-h-[600px] rounded-3xl overflow-hidden shadow-xl">
               <Image
-                src="/images/doctor.jpg"
+                src="/images/Pricing.webp "
                 alt="Healthcare Professional"
                 fill
                 className="object-cover"

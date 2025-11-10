@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { PrimaryButton, SecondaryButton } from './common/buttons';
 import { Body2, Body3, Header2, Header3, Header4, Overline } from './common/typography';
 import { useRouter } from 'next/navigation';
+import { bookingBaseUrl } from '../enum';
 
 /**
  * Get Started CTA Section Component
@@ -30,7 +31,7 @@ export default function HomeGetStarted({
     overline = "Ready to take control?",
     heading = "Ready to Take Control of Your Health?",
     primaryButtonText = "Get Started Now →",
-    primaryButtonLink = "/get-started",
+    primaryButtonLink = bookingBaseUrl + "/form/metis/medical-weight-loss",
     secondaryButtonText = "See pricing",
     secondaryButtonLink = "#subscription"
 }: HomeGetStartedProps) {
@@ -79,7 +80,7 @@ export default function HomeGetStarted({
                         {/* Primary Button */}
                         <PrimaryButton
                             size="large"
-                           onClick={()=>router.push(primaryButtonLink)} theme='dark' className='border-white'>
+                           href={primaryButtonLink} theme='dark' className='border-white'>
                             {primaryButtonText}
                         </PrimaryButton>
                     </motion.div>

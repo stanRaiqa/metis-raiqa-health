@@ -1,43 +1,123 @@
-# Raiqa Health - robots.txt
-# Allow all web crawlers to access all content by default
+# Metis by Raiqa Health - Medical Weight Loss
+# Comprehensive robots.txt for security and SEO optimization
+
+# Default rule for all crawlers
 User-agent: *
 Allow: /
+Allow: /about-us
+Allow: /how-it-works
+Allow: /contact
+Allow: /services
+Allow: /blog
+Allow: /terms
+Allow: /privacy-policy
+Allow: /cookie-policy
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.woff$
+Allow: /*.woff2$
 
-# Sitemap location
-Sitemap: https://raiqa.health/sitemap.xml
-
-# Block access to API routes
+# Block sensitive routes
 Disallow: /api/
-
-# Block access to admin paths
 Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /cms/
 Disallow: /studio/
+Disallow: /auth/
+Disallow: /login/
+Disallow: /register/
+Disallow: /signup/
+Disallow: /signin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /user/
+Disallow: /profile/
+Disallow: /account/
+Disallow: /settings/
+Disallow: /checkout/
+Disallow: /payment/
+Disallow: /cart/
 
-# Allow specific crawlers with custom rules
-User-agent: Googlebot
-Allow: /
+# Block error pages
+Disallow: /404
+Disallow: /500
+Disallow: /error
+
+# Block development & draft pages
+Disallow: /draft/
+Disallow: /preview/
+Disallow: /example/
+Disallow: /showcase/
+Disallow: /alpha/
+Disallow: /beta/
+Disallow: /homepage-2
+Disallow: /contactUsSection
+
+# Block duplicate content from query parameters
+Disallow: /*?*
+Disallow: /*&
+Disallow: /search?
+Disallow: /search/
+
+# Block file types
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+
+# Block Next.js internals
+Disallow: /_next/
+Disallow: /static/
+Disallow: /version/
+
+# Crawl delay for respectful crawling
 Crawl-delay: 1
 
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /*?*
+Disallow: /example/
+Crawl-delay: 1
+
+# Bing-specific rules
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
+# Yahoo-specific rules
 User-agent: Slurp
 Allow: /
 Crawl-delay: 1
 
-# Healthcare specific crawlers
+# Apple-specific rules (for Siri, Spotlight)
 User-agent: Applebot
 Allow: /
+Crawl-delay: 1
 
-# Block specific files and directories
-Disallow: /private/
-Disallow: /*.json$
-Disallow: /*?*
+# Block AI scrapers/bots (optional - uncomment if desired)
+# User-agent: GPTBot
+# Disallow: /
 
-# Don't index error pages or drafts
-Disallow: /404
-Disallow: /500
-Disallow: /draft/ 
+# User-agent: ChatGPT-User
+# Disallow: /
+
+# User-agent: CCBot
+# Disallow: /
+
+# User-agent: anthropic-ai
+# Disallow: /
+
+# User-agent: Claude-Web
+# Disallow: /
+
+# Sitemap location
+Sitemap: https://raiqa.health/sitemap.xml 
