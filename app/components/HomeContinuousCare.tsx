@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { Header2, Header4, Body2, Header6, Header5 } from "./common/typography";
 import { MessageSquare, UserCheck, Users, Shield } from "lucide-react";
 import { PrimaryButton } from "./common/buttons";
+import { bookingBaseUrl } from "../enum";
 
 /**
  * HomeContinuousCare Component
@@ -39,8 +40,8 @@ export default function HomeContinuousCare() {
       title: "Unlimited Expert Access",
       description: "Chat anytime with your care team, nurses, and health coaches who listen.",
       bgColor: "bg-[#FFF4E6]",
-      buttonText: "Get Started Now →",
-      buttonLink: "/get-started",
+      buttonText: "Get Started Now",
+      buttonLink: bookingBaseUrl + "/form/metis/medical-weight-loss",
     },
     {
       id: "doctor-reviews",
@@ -48,8 +49,8 @@ export default function HomeContinuousCare() {
       title: "Doctor-Led Reviews",
       description: "Your progress matters. Every month, your doctor checks in to adjust your plan and ensure it's working for you.",
       bgColor: "bg-[#E3F2FD]",
-      buttonText: "Get Started Now →",
-      buttonLink: "/get-started",
+      buttonText: "Get Started Now",
+      buttonLink: bookingBaseUrl + "/form/metis/medical-weight-loss",
     },
     {
       id: "specialist-access",
@@ -57,8 +58,8 @@ export default function HomeContinuousCare() {
       title: "Dietitian & Psychologist Support",
       description: "Based on your doctor's evaluation, you'll receive coordinated care from licensed dietitians and behavioral health experts.",
       bgColor: "bg-[#F3E5F5]",
-      buttonText: "Get Started Now →",
-      buttonLink: "/get-started",
+      buttonText: "Get Started Now",
+      buttonLink: bookingBaseUrl + "/form/metis/medical-weight-loss",
     },
     {
       id: "safe-care",
@@ -66,8 +67,8 @@ export default function HomeContinuousCare() {
       title: "Safe, Ongoing Care",
       description: "Each refill is reviewed for safety and effectiveness, because long-term health needs long-term attention.",
       bgColor: "bg-[#E8F5E9]",
-      buttonText: "Get Started Now →",
-      buttonLink: "/get-started",
+      buttonText: "Get Started Now",
+      buttonLink: bookingBaseUrl + "/form/metis/medical-weight-loss",
     },
   ];
 

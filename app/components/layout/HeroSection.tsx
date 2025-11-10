@@ -65,7 +65,7 @@ export default function HeroSection({
     secondaryButtonText = "Learn More",
     secondaryButtonHref = "#",
     showSecondaryButton = true,
-    imageSrc = "/images/Metis_Hero_image.jpg",
+    imageSrc = "/images/MetisHeroImage.webp",
     imageAlt = "Healthcare",
     overlayContent,
     titleClassName = "text-white font-bold",

@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { FileText, User, Package, HeadphonesIcon, CheckCircle } from 'lucide-react';
 import { Header2, Body1, Header3, Body2 } from './common/typography';
 import { PrimaryButton } from './common/buttons';
+import { bookingBaseUrl } from '../enum';
 
 /**
  * How It Works Section
@@ -40,11 +41,11 @@ const steps: Step[] = [
       'Personalized assessment',
       'Expert medical guidance'
     ],
-    imageSrc: '/images/doctor.jpg',
+    imageSrc: '/images/HowMetisWorks.webp',
     imageAlt: 'Online Doctor Consultation',
     icon: <FileText className="w-6 h-6" />,
     buttonText: 'Start Consultation →',
-    buttonLink: '/get-started'
+    buttonLink: bookingBaseUrl + "/form/metis/medical-weight-loss"
   },
   {
     id: 2,
@@ -57,11 +58,11 @@ const steps: Step[] = [
       'Lifestyle and nutrition guidance',
       'Ongoing medical review'
     ],
-    imageSrc: '/images/HairLossTreatment-1.jpg',
+    imageSrc: '/images/HowMetisWorks.webp',
     imageAlt: 'Personalized Treatment Plan',
     icon: <User className="w-6 h-6" />,
     buttonText: 'Learn More →',
-    buttonLink: '/services'
+    buttonLink: '/#how-it-works'
   },
   {
     id: 3,
@@ -74,11 +75,11 @@ const steps: Step[] = [
       'Discreet packaging',
       'Delivery included in your plan'
     ],
-    imageSrc: '/images/HairLossTreatment-2.jpg',
+    imageSrc: '/images/HowMetisWorks.webp',
     imageAlt: 'Home Delivery',
     icon: <Package className="w-6 h-6" />,
     buttonText: 'View Plans →',
-    buttonLink: '/pricing'
+    buttonLink: '/#subscription'
   },
   {
     id: 4,
@@ -91,11 +92,11 @@ const steps: Step[] = [
       'Progress tracking via app/text',
       'Refills delivered automatically after review'
     ],
-    imageSrc: '/images/Skin_Care.jpg',
+    imageSrc: '/images/HowMetisWorks.webp',
     imageAlt: 'Ongoing Support',
     icon: <HeadphonesIcon className="w-6 h-6" />,
     buttonText: 'Get Started →',
-    buttonLink: '/get-started'
+    buttonLink: bookingBaseUrl + "/form/metis/medical-weight-loss"
   }
 ];
 
@@ -179,9 +180,9 @@ export default function HomeHowItWorks() {
                     </div>
 
                     {/* Mobile Image */}
-                    <div className="lg:hidden relative aspect-[4/3] w-full rounded-xl overflow-hidden mb-6">
+                    {/* <div className="lg:hidden relative aspect-[4/3] w-full rounded-xl overflow-hidden mb-6">
                       <Image src={step.imageSrc} alt={step.imageAlt} fill className="object-cover" />
-                    </div>
+                    </div> */}
 
                     {/* CTA Button */}
                     <PrimaryButton size="medium" href={step.buttonLink} className="w-full sm:w-auto">
@@ -205,7 +206,7 @@ export default function HomeHowItWorks() {
                   {/* Main Image */}
                   <div className="relative h-[450px] w-full rounded-2xl overflow-hidden shadow-xl ">
                     <Image 
-                      src="/images/doctor.jpg" 
+                      src="/images/HowMetisWorks.webp" 
                       alt="Healthcare Professional" 
                       fill 
                       className="object-cover" 
