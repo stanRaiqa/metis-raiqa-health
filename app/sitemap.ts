@@ -33,8 +33,9 @@ const mainSections = [
   { path: 'patient', priority: 0.9, changeFrequency: 'weekly' as ChangeFrequency },
   { path: 'blog', priority: 0.8, changeFrequency: 'weekly' as ChangeFrequency },
   { path: 'contact', priority: 0.7, changeFrequency: 'monthly' as ChangeFrequency },
-  { path: 'terms', priority: 0.5, changeFrequency: 'yearly' as ChangeFrequency },
-  { path: 'privacy-policy', priority: 0.5, changeFrequency: 'yearly' as ChangeFrequency },
+  { path: 'privacy-policy', priority: 0.6, changeFrequency: 'yearly' as ChangeFrequency },
+  { path: 'terms-conditions', priority: 0.6, changeFrequency: 'yearly' as ChangeFrequency },
+  { path: 'shipping-returns', priority: 0.6, changeFrequency: 'yearly' as ChangeFrequency },
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

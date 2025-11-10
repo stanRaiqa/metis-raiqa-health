@@ -133,7 +133,7 @@ export default function SubscriptionPlans() {
           >
             <div className="relative w-full aspect-[3/4] max-h-[600px] rounded-3xl overflow-hidden shadow-xl">
               <Image
-                src="/images/Pricing.webp "
+                src="/images/Pricing.webp"
                 alt="Healthcare Professional"
                 fill
                 className="object-cover"
