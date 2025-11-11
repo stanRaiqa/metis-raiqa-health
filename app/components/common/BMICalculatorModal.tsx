@@ -191,7 +191,7 @@ export default function BMICalculatorModal({ isOpen, onClose }: BMICalculatorMod
                       value={height}
                       onChange={(e) => setHeight(e.target.value)}
                       placeholder={unit === 'metric' ? '170' : '67'}
-                      className="w-full px-4 py-3 border-2 border-brand-neutral rounded-xl focus:border-brand-primary focus:outline-none transition-colors"
+                      className="w-full px-4 py-3 border-2 border-brand-neutral text-brand-dark rounded-xl focus:border-brand-primary focus:outline-none transition-colors"
                     />
                   </div>
                   <div>
@@ -203,7 +203,7 @@ export default function BMICalculatorModal({ isOpen, onClose }: BMICalculatorMod
                       value={weight}
                       onChange={(e) => setWeight(e.target.value)}
                       placeholder={unit === 'metric' ? '70' : '154'}
-                      className="w-full px-4 py-3 border-2 border-brand-neutral rounded-xl focus:border-brand-primary focus:outline-none transition-colors"
+                      className="w-full px-4 py-3 border-2 text-brand-dark border-brand-neutral rounded-xl focus:border-brand-primary focus:outline-none transition-colors"
                     />
                   </div>
                 </div>
@@ -274,7 +274,7 @@ export default function BMICalculatorModal({ isOpen, onClose }: BMICalculatorMod
                         <Body2 className="text-brand-steel leading-relaxed mb-4">
                           {result.recommendation}
                         </Body2>
-                        {(result.bmi >= 25) && (
+                        { (
                           <PrimaryButton
                             onClick={() => {
                               handleClose();
