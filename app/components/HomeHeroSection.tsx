@@ -60,7 +60,7 @@ const treatmentCards: TreatmentCard[] = [
 
 export default function HomeHeroSection({
     title = "Medical Weight Loss, Made Simple.",
-    subtitle = "Personalized treatment, doctor-led care, and real results, starting at $269/month. No diets. No confusion. Just a medical approach designed around you.",
+    subtitle = "Personalized treatment, doctor-led care, and real results, starting at $404/quarter. No diets. No confusion. Just a medical approach designed around you.",
     ctaTextPrimary = "Get Started",
     ctaTextSecondary = "View Plans",
     imageSrc = "/images/MetisHeroImage.webp",

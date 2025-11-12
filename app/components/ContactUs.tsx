@@ -122,8 +122,7 @@ export default function ContactUs() {
                                     <Phone className="w-6 h-6 text-brand-dark" />
                                 </div>
                                 <div>
-                                    <Body2 className="text-brand-dark font-medium">+123 45 789 000</Body2>
-                                    <Body2 className="text-brand-dark font-medium">+123 45 789 000</Body2>
+                                    <Body2 className="text-brand-dark font-medium">1300 0RAIQA</Body2>
                                 </div>
                             </div>
 
@@ -133,8 +132,7 @@ export default function ContactUs() {
                                     <Mail className="w-6 h-6 text-brand-dark" />
                                 </div>
                                 <div>
-                                    <Body2 className="text-brand-dark font-medium">inquiry@hero.au</Body2>
-                                    <Body2 className="text-brand-dark font-medium">help@hero.au</Body2>
+                                    <Body2 className="text-brand-dark font-medium">support@raiqa.health</Body2>
                                 </div>
                             </div>
 
@@ -145,8 +143,7 @@ export default function ContactUs() {
                                 </div>
                                 <div>
                                     <Body2 className="text-brand-dark font-medium">
-                                        221b Elementary Street<br />
-                                        New York, NY
+                                        Lobby 1, Level 2/76 Skyring Terrace, <br/>Newstead QLD 4006, Australia
                                     </Body2>
                                 </div>
                             </div>
@@ -214,9 +211,7 @@ export default function ContactUs() {
                                         } rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-primary focus:border-brand-primary transition-all appearance-none cursor-pointer hover:border-gray-400 text-brand-dark font-medium`}
                                     >
                                         <option value="" className="text-gray-400">Select treatment</option>
-                                        <option value="hair-loss">Hair Loss</option>
-                                        <option value="mental-health">Sexual Health</option>
-                                        <option value="skin-care">Skin Care</option>
+                                        <option value="medical-weight-loss">Medical Weight Loss</option>
                                         <option value="other">Other</option>
                                     </select>
                                     <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
@@ -296,7 +291,7 @@ export default function ContactUs() {
                             {/* Follow-up Method */}
                             <div>
                                 <label className="block text-sm font-medium text-brand-dark mb-3">
-                                    How would you like the Hero Customer Team to follow up?
+                                    How would you like the Metis Customer Team to follow up?
                                 </label>
                                 <div className=" flex items-center gap-2">
                                     <div className="flex items-center gap-2">
