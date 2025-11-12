@@ -68,9 +68,9 @@ export default function SubscriptionPlans() {
 
             {/* Price */}
             <div className="flex items-baseline gap-2 py-2">
-              <Header3 className="text-brand-primary !font-bold">$404</Header3>
+              <Header3 className="text-brand-primary !font-bold">$269</Header3>
               <Body1 className="text-brand-steel font-medium">
-                /quarter, everything covered.
+                /month, everything covered.
               </Body1>
             </div>
 
@@ -114,7 +114,7 @@ export default function SubscriptionPlans() {
                 className="group"
               >
                 <span className="flex items-center gap-2">
-                  Start Your Journey at $404/quarter
+                  Start Your Journey at $269/month
                   <span className="transition-transform group-hover:translate-x-1">
                     →
                   </span>
