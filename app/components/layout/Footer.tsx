@@ -135,8 +135,10 @@ export default function Footer() {
             {/* Social Media Icons */}
             <div className="flex gap-3 mb-8">
               <Link
-                href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61575972839309"
+                href="https://www.facebook.com/profile.php?id=61581048692018"
                 aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
               >
                 <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-100 transition-colors">
@@ -144,7 +146,7 @@ export default function Footer() {
                 </div>
               </Link>
 
-              <Link
+              {/* <Link
                 href="https://www.youtube.com/@RaiqaHealth"
                 aria-label="YouTube"
                 className="hover:opacity-80 transition-opacity"
@@ -152,11 +154,13 @@ export default function Footer() {
                 <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-100 transition-colors">
                   <YoutubeIcon className="w-5 h-5 text-brand-primary-dark" />
                 </div>
-              </Link>
+              </Link> */}
 
               <Link
-                href="https://www.instagram.com/raiqahealth"
+                href="https://www.instagram.com/metisraiqa/"
                 aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
               >
                 <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-100 transition-colors">
@@ -209,7 +213,7 @@ export default function Footer() {
               <span className="font-semibold">Call</span>
             </Body3>
             <Body3 className="text-white/80">
-              +61 7 3472 8493
+              1300 0RAIQA
             </Body3>
           </div>
         </div>
