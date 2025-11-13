@@ -93,7 +93,7 @@ export default function Footer() {
           {/* Programs Column */}
           <div className="lg:col-span-2">
             <Header6 className="!font-medium text-white text-lg  mb-4">Programs</Header6>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-4">
               <Link href={bookingBaseUrl+"/form/metis/medical-weight-loss" }className="hover:underline">
                 <Body3 className="text-white/80">Medical Weightloss</Body3>
               </Link>
@@ -109,7 +109,7 @@ export default function Footer() {
           {/* About Us Column */}
           <div className="lg:col-span-2">
             <Header6 className="!font-medium text-white text-lg  mb-4">About us</Header6>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-4">
               <Link href="/#faqs" className="hover:underline">
                 <Body3 className="text-white/80">FAQs</Body3>
               </Link>
